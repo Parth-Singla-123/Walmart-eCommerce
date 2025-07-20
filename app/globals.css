@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+
+    /* Updated Walmart Brand Colors with Vibrant Blue */
+    --walmart-blue: #2563EB;
+    /* Changed from dull #0071CE to vibrant blue */
+    --accent-orange: #FF6900;
+    --success-green: #00A652;
+    --neutral-bg: #F8F9FA;
+    --smart-purple: #8B5CF6;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-lato);
+
+    /* Custom Walmart Colors with Vibrant Blue */
+    --color-walmart-blue: var(--walmart-blue);
+    --color-accent-orange: var(--accent-orange);
+    --color-success-green: var(--success-green);
+    --color-neutral-bg: var(--neutral-bg);
+    --color-smart-purple: var(--smart-purple);
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+}

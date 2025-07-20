@@ -1,0 +1,1693 @@
+File: /app/api/account/addresses/default/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+
+export async function PUT(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const { addressId } = await request.json()
+        await connectDB()
+
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // Remove default from all addresses
+        mongoUser.addresses.forEach(addr => {
+            addr.isDefault = false
+        })
+
+        // Set new default
+        const targetAddress = mongoUser.addresses.id(addressId)
+        if (!targetAddress) {
+            return NextResponse.json({ error: 'Address not found' }, { status: 404 })
+        }
+
+        targetAddress.isDefault = true
+        await mongoUser.save()
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Default address update error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/addresses/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+
+export async function GET(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const addresses = mongoUser.addresses?.filter(addr => addr.isActive) || []
+
+        return NextResponse.json({ addresses })
+    } catch (error) {
+        console.error('Addresses fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+export async function POST(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const addressData = await request.json()
+        await connectDB()
+
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // If this is set as default, remove default from others
+        if (addressData.isDefault) {
+            mongoUser.addresses.forEach(addr => {
+                if (addr.isDefault) addr.isDefault = false
+            })
+        }
+
+        // Create new address
+        const newAddress = {
+            type: addressData.type,
+            label: addressData.label,
+            street: addressData.street,
+            city: addressData.city,
+            state: addressData.state,
+            zipCode: addressData.zipCode,
+            country: 'India',
+            isDefault: addressData.isDefault,
+            isActive: true
+        }
+
+        mongoUser.addresses.push(newAddress)
+        await mongoUser.save()
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Address creation error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/addresses/[id]/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+
+export async function PUT(request, { params }) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const addressData = await request.json()
+        await connectDB()
+
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const address = mongoUser.addresses.id(params.id)
+        if (!address) {
+            return NextResponse.json({ error: 'Address not found' }, { status: 404 })
+        }
+
+        // If this is set as default, remove default from others
+        if (addressData.isDefault) {
+            mongoUser.addresses.forEach(addr => {
+                if (addr._id.toString() !== params.id && addr.isDefault) {
+                    addr.isDefault = false
+                }
+            })
+        }
+
+        // Update address
+        address.type = addressData.type
+        address.label = addressData.label
+        address.street = addressData.street
+        address.city = addressData.city
+        address.state = addressData.state
+        address.zipCode = addressData.zipCode
+        address.isDefault = addressData.isDefault
+
+        await mongoUser.save()
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Address update error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+export async function DELETE(request, { params }) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const address = mongoUser.addresses.id(params.id)
+        if (!address) {
+            return NextResponse.json({ error: 'Address not found' }, { status: 404 })
+        }
+
+        // Mark as inactive instead of deleting
+        address.isActive = false
+        await mongoUser.save()
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Address deletion error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/orders/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import Order from '@/models/Order'
+import User from '@/models/User'
+
+// GET - Fetch user orders
+export async function GET(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+
+        // Get user from MongoDB to get the ObjectId
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const { searchParams } = new URL(request.url)
+        const status = searchParams.get('status')
+        const dateRange = searchParams.get('dateRange')
+        const search = searchParams.get('search')
+
+        // Build query
+        const query = { userId: mongoUser._id }
+
+        if (status) {
+            query.status = status
+        }
+
+        if (dateRange) {
+            const days = parseInt(dateRange)
+            const startDate = new Date()
+            startDate.setDate(startDate.getDate() - days)
+            query['timestamps.orderDate'] = { $gte: startDate }
+        }
+
+        if (search) {
+            query.$or = [
+                { orderNumber: { $regex: search, $options: 'i' } },
+                { 'items.name': { $regex: search, $options: 'i' } }
+            ]
+        }
+
+        const orders = await Order.find(query)
+            .sort({ 'timestamps.orderDate': -1 })
+            .limit(50)
+
+        return NextResponse.json({ orders })
+    } catch (error) {
+        console.error('Orders fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/orders/[id]/cancel/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import Order from '@/models/Order'
+import User from '@/models/User'
+
+export async function POST(request, { params }) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const order = await Order.findOne({
+            _id: params.id,
+            userId: mongoUser._id
+        })
+
+        if (!order) {
+            return NextResponse.json({ error: 'Order not found' }, { status: 404 })
+        }
+
+        // Check if order can be cancelled
+        if (!['pending', 'confirmed'].includes(order.status)) {
+            return NextResponse.json({
+                error: 'Order cannot be cancelled at this stage'
+            }, { status: 400 })
+        }
+
+        // Update order status
+        order.status = 'cancelled'
+        await order.save()
+
+        return NextResponse.json({ success: true, order })
+    } catch (error) {
+        console.error('Order cancel error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/orders/[id]/reorder/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import Order from '@/models/Order'
+import User from '@/models/User'
+
+export async function POST(request, { params }) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const order = await Order.findOne({
+            _id: params.id,
+            userId: mongoUser._id
+        })
+
+        if (!order) {
+            return NextResponse.json({ error: 'Order not found' }, { status: 404 })
+        }
+
+        // Add items to cart (you'll need to implement cart logic)
+        const cartItems = order.items.map(item => ({
+            productId: item.productId,
+            name: item.name,
+            price: item.price,
+            quantity: item.quantity,
+            size: item.size,
+            color: item.color
+        }))
+
+        // Here you would add items to the user's cart
+        // For now, we'll just return the items
+
+        return NextResponse.json({ success: true, cartItems })
+    } catch (error) {
+        console.error('Reorder error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/orders/[id]/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import Order from '@/models/Order'
+import User from '@/models/User'
+
+export async function GET(request, { params }) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+
+        // Get MongoDB user
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // Find order by ID and ensure it belongs to the user
+        const order = await Order.findOne({
+            _id: params.id,
+            userId: mongoUser._id
+        }).lean()
+
+        if (!order) {
+            return NextResponse.json({ error: 'Order not found' }, { status: 404 })
+        }
+
+        return NextResponse.json({ order })
+    } catch (error) {
+        console.error('Order details fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/preferences/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import { validatePreferences } from '@/lib/validations/userValidation'
+
+export async function GET(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        return NextResponse.json({
+            preferences: mongoUser.preferences || {
+                categories: [],
+                priceRange: { min: 0, max: 50000 },
+                currency: 'INR',
+                notifications: {
+                    email: true,
+                    push: true,
+                    orderUpdates: true,
+                    deals: true,
+                    newArrivals: false
+                },
+                privacy: {
+                    showEmail: false,
+                    profileVisibility: 'public'
+                }
+            }
+        })
+    } catch (error) {
+        console.error('Preferences fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+export async function PUT(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const preferencesData = await request.json()
+
+        // Validate preferences data
+        const validation = validatePreferences(preferencesData)
+        if (!validation.isValid) {
+            return NextResponse.json({
+                error: 'Invalid preferences data',
+                details: validation.errors
+            }, { status: 400 })
+        }
+
+        await connectDB()
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // Safely merge existing preferences with incoming data
+        if (!mongoUser.preferences) {
+            mongoUser.preferences = {};
+        }
+
+        const mergedPreferences = {
+            ...mongoUser.preferences,
+            ...preferencesData
+        };
+
+        // Ensure privacy object is always present
+        if (preferencesData.privacy === undefined) {
+            mergedPreferences.privacy = mongoUser.preferences.privacy ?? {
+                showEmail: false,
+                profileVisibility: 'public'
+            };
+        }
+
+        mongoUser.preferences = mergedPreferences;
+
+        await mongoUser.save()
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Preferences update error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/profile/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+
+// GET - Fetch user profile
+export async function GET(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        await connectDB()
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        const profileData = {
+            name: mongoUser.profile?.name || '',
+            avatar: mongoUser.profile?.avatar || '',
+            phone: mongoUser.profile?.phone || '',
+            email: mongoUser.email
+        }
+
+        return NextResponse.json({ profile: profileData })
+    } catch (error) {
+        console.error('Profile fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+// PUT - Update user profile
+export async function PUT(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const updates = await request.json()
+        await connectDB()
+
+        const updateData = {}
+
+        if (updates.profile) {
+            updateData.profile = {}
+
+            if (updates.profile.name !== undefined) {
+                updateData.profile.name = updates.profile.name.trim()
+            }
+
+            if (updates.profile.phone !== undefined) {
+                updateData.profile.phone = updates.profile.phone.trim()
+            }
+
+            if (updates.profile.avatar !== undefined) {
+                updateData.profile.avatar = updates.profile.avatar
+            }
+        }
+
+        const updatedUser = await User.findOneAndUpdate(
+            { supabaseId: user.id },
+            { $set: updateData },
+            { new: true, runValidators: true }
+        )
+
+        if (!updatedUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        return NextResponse.json({
+            success: true,
+            profile: {
+                name: updatedUser.profile?.name || '',
+                avatar: updatedUser.profile?.avatar || '',
+                phone: updatedUser.profile?.phone || '',
+                email: updatedUser.email
+            }
+        })
+    } catch (error) {
+        console.error('Profile update error:', error)
+
+        if (error.name === 'ValidationError') {
+            return NextResponse.json({
+                error: 'Validation failed',
+                details: error.message
+            }, { status: 400 })
+        }
+
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/account/security/password/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+
+export async function POST(request) {
+    try {
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const { currentPassword, newPassword } = await request.json()
+
+        // Validate input
+        if (!currentPassword || !newPassword) {
+            return NextResponse.json({
+                error: 'Current password and new password are required'
+            }, { status: 400 })
+        }
+
+        if (newPassword.length < 6) {
+            return NextResponse.json({
+                error: 'New password must be at least 6 characters long'
+            }, { status: 400 })
+        }
+
+        // Verify current password by attempting to sign in
+        const { error: signInError } = await supabase.auth.signInWithPassword({
+            email: user.email,
+            password: currentPassword
+        })
+
+        if (signInError) {
+            return NextResponse.json({
+                error: 'Current password is incorrect'
+            }, { status: 400 })
+        }
+
+        // Update password
+        const { error: updateError } = await supabase.auth.updateUser({
+            password: newPassword
+        })
+
+        if (updateError) {
+            return NextResponse.json({
+                error: 'Failed to update password'
+            }, { status: 500 })
+        }
+
+        return NextResponse.json({ success: true })
+    } catch (error) {
+        console.error('Password update error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/admin/retailer-applications/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import RetailerApplication from '@/models/RetailerApplication'
+
+export async function GET(request) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Get user from MongoDB and verify admin role
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        if (mongoUser.role !== 'Admin') {
+            return NextResponse.json({ error: 'Access denied. Admin role required.' }, { status: 403 })
+        }
+
+        // Get query parameters
+        const { searchParams } = new URL(request.url)
+        const status = searchParams.get('status') || 'pending'
+
+        // Fetch applications with user details
+        const applications = await RetailerApplication.find({ status })
+            .populate('userId', 'email profile.name profile.avatar')
+            .sort({ createdAt: -1 })
+
+        return NextResponse.json({
+            applications,
+            total: applications.length
+        }, { status: 200 })
+
+    } catch (error) {
+        console.error('Admin retailer applications fetch error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/admin/retailer-applications/[id]/approve/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import RetailerApplication from '@/models/RetailerApplication'
+
+export async function PUT(request, { params }) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Get admin user from MongoDB and verify role
+        const adminUser = await User.findOne({ supabaseId: user.id })
+        if (!adminUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        if (adminUser.role !== 'Admin') {
+            return NextResponse.json({ error: 'Access denied. Admin role required.' }, { status: 403 })
+        }
+
+        const { id } = params
+
+        // Find the application
+        const application = await RetailerApplication.findById(id)
+        if (!application) {
+            return NextResponse.json({ error: 'Application not found' }, { status: 404 })
+        }
+
+        if (application.status !== 'pending') {
+            return NextResponse.json({ error: 'Application has already been processed' }, { status: 400 })
+        }
+
+        // Update application status
+        const updatedApplication = await RetailerApplication.findByIdAndUpdate(
+            id,
+            {
+                status: 'approved',
+                reviewedBy: adminUser._id,
+                reviewedAt: new Date()
+            },
+            { new: true }
+        )
+
+        // Update user role and retailer verification
+        await User.findByIdAndUpdate(application.userId, {
+            role: 'Retailer',
+            'retailerVerification.status': 'approved',
+            'retailerVerification.verifiedAt': new Date(),
+            'retailerVerification.verifiedBy': adminUser._id.toString()
+        })
+
+        return NextResponse.json({
+            success: true,
+            message: 'Retailer application approved successfully',
+            application: updatedApplication
+        }, { status: 200 })
+
+    } catch (error) {
+        console.error('Admin approve application error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/admin/retailer-applications/[id]/reject/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import RetailerApplication from '@/models/RetailerApplication'
+
+export async function PUT(request, { params }) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Get admin user from MongoDB and verify role
+        const adminUser = await User.findOne({ supabaseId: user.id })
+        if (!adminUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        if (adminUser.role !== 'Admin') {
+            return NextResponse.json({ error: 'Access denied. Admin role required.' }, { status: 403 })
+        }
+
+        const { id } = params
+        const { rejectionReason } = await request.json()
+
+        // Validate rejection reason
+        if (!rejectionReason || rejectionReason.trim().length < 10) {
+            return NextResponse.json({
+                error: 'Rejection reason is required (minimum 10 characters)'
+            }, { status: 400 })
+        }
+
+        // Find the application
+        const application = await RetailerApplication.findById(id)
+        if (!application) {
+            return NextResponse.json({ error: 'Application not found' }, { status: 404 })
+        }
+
+        if (application.status !== 'pending') {
+            return NextResponse.json({ error: 'Application has already been processed' }, { status: 400 })
+        }
+
+        // Update application status
+        const updatedApplication = await RetailerApplication.findByIdAndUpdate(
+            id,
+            {
+                status: 'rejected',
+                reviewedBy: adminUser._id,
+                reviewedAt: new Date(),
+                rejectionReason: rejectionReason.trim()
+            },
+            { new: true }
+        )
+
+        // Update user retailer verification status
+        await User.findByIdAndUpdate(application.userId, {
+            'retailerVerification.status': 'rejected',
+            'retailerVerification.verifiedAt': new Date(),
+            'retailerVerification.verifiedBy': adminUser._id.toString()
+        })
+
+        return NextResponse.json({
+            success: true,
+            message: 'Retailer application rejected',
+            application: updatedApplication
+        }, { status: 200 })
+
+    } catch (error) {
+        console.error('Admin reject application error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/retailer/application-status/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import RetailerApplication from '@/models/RetailerApplication'
+
+export async function GET(request) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Get user from MongoDB
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // Find retailer application for user
+        const application = await RetailerApplication.findOne({ userId: mongoUser._id })
+
+        return NextResponse.json({ application }, { status: 200 })
+    } catch (error) {
+        console.error('Retailer application status error:', error)
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/retailer/apply/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+import RetailerApplication from '@/models/RetailerApplication'
+
+export async function POST(request) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Get user from MongoDB
+        const mongoUser = await User.findOne({ supabaseId: user.id })
+        if (!mongoUser) {
+            return NextResponse.json({ error: 'User not found' }, { status: 404 })
+        }
+
+        // Check if user is already a retailer
+        if (mongoUser.role === 'Retailer') {
+            return NextResponse.json({ error: 'You are already a retailer' }, { status: 400 })
+        }
+
+        // Check if user already has a pending application
+        const existingApplication = await RetailerApplication.findOne({
+            userId: mongoUser._id,
+            status: 'pending'
+        })
+
+        if (existingApplication) {
+            return NextResponse.json({
+                error: 'You already have a pending application'
+            }, { status: 400 })
+        }
+
+        // Get request data
+        const { businessName, businessDescription, businessCategory } = await request.json()
+
+        // Validate required fields
+        if (!businessName || !businessDescription || !businessCategory) {
+            return NextResponse.json({
+                error: 'All fields are required'
+            }, { status: 400 })
+        }
+
+        // Validate business name length
+        if (businessName.trim().length < 2) {
+            return NextResponse.json({
+                error: 'Business name must be at least 2 characters'
+            }, { status: 400 })
+        }
+
+        // Validate business description length
+        if (businessDescription.trim().length < 20) {
+            return NextResponse.json({
+                error: 'Business description must be at least 20 characters'
+            }, { status: 400 })
+        }
+
+        // Validate business category
+        const validCategories = ['Electronics', 'Clothing', 'Home & Garden', 'Books', 'Sports', 'Beauty', 'Food', 'Other']
+        if (!validCategories.includes(businessCategory)) {
+            return NextResponse.json({
+                error: 'Invalid business category'
+            }, { status: 400 })
+        }
+
+        // Create retailer application
+        const application = await RetailerApplication.create({
+            userId: mongoUser._id,
+            status: 'pending',
+            businessName: businessName.trim(),
+            businessDescription: businessDescription.trim(),
+            businessCategory,
+            reviewedBy: null,
+            reviewedAt: null,
+            rejectionReason: ''
+        })
+
+        // Update user's retailer verification status
+        await User.findByIdAndUpdate(mongoUser._id, {
+            'retailerVerification.status': 'pending',
+            'retailerVerification.appliedAt': new Date()
+        })
+
+        return NextResponse.json({
+            success: true,
+            message: 'Retailer application submitted successfully',
+            application: {
+                _id: application._id,
+                status: application.status,
+                businessName: application.businessName,
+                businessDescription: application.businessDescription,
+                businessCategory: application.businessCategory,
+                createdAt: application.createdAt,
+                reviewedBy: application.reviewedBy,
+                reviewedAt: application.reviewedAt,
+                rejectionReason: application.rejectionReason
+            }
+        }, { status: 201 })
+
+    } catch (error) {
+        console.error('Retailer application error:', error)
+
+        // Handle validation errors
+        if (error.name === 'ValidationError') {
+            return NextResponse.json({
+                error: 'Validation failed',
+                details: error.message
+            }, { status: 400 })
+        }
+
+        // Handle duplicate key errors
+        if (error.code === 11000) {
+            return NextResponse.json({
+                error: 'Application already exists'
+            }, { status: 409 })
+        }
+
+        return NextResponse.json({
+            error: 'Internal server error'
+        }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/upload/profile-picture/route.js
+
+import { NextResponse } from 'next/server'
+import { v2 as cloudinary } from 'cloudinary'
+import { createClient } from '@/lib/supabase/server'
+
+// Configure Cloudinary
+cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+})
+
+export async function POST(request) {
+    try {
+        // Verify user authentication
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        const formData = await request.formData()
+        const file = formData.get('file')
+
+        if (!file) {
+            return NextResponse.json({ error: 'No file provided' }, { status: 400 })
+        }
+
+        // Convert file to buffer
+        const bytes = await file.arrayBuffer()
+        const buffer = Buffer.from(bytes)
+
+        // Upload to Cloudinary with the preset we created
+        const uploadResponse = await new Promise((resolve, reject) => {
+            cloudinary.uploader.upload_stream(
+                {
+                    resource_type: 'auto',
+                    folder: 'profile-pictures',
+                    public_id: `profile_${user.id}_${Date.now()}`,
+                    transformation: [
+                        { width: 400, height: 400, crop: 'limit' },
+                        { quality: 'auto', fetch_format: 'auto' }
+                    ],
+                    overwrite: false, // Security: don't overwrite existing
+                },
+                (error, result) => {
+                    if (error) reject(error)
+                    else resolve(result)
+                }
+            ).end(buffer)
+        })
+
+        return NextResponse.json({
+            success: true,
+            url: uploadResponse.secure_url,
+            public_id: uploadResponse.public_id,
+            width: uploadResponse.width,
+            height: uploadResponse.height,
+        })
+    } catch (error) {
+        console.error('Upload error:', error)
+        return NextResponse.json(
+            { error: 'Upload failed', details: error.message },
+            { status: 500 }
+        )
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File: /app/api/user/sync/route.js
+
+import { NextResponse } from 'next/server'
+import { createClient } from '@/lib/supabase/server'
+import connectDB from '@/lib/mongodb'
+import User from '@/models/User'
+
+export async function POST(req) {
+    try {
+        // Check if user is authenticated
+        const supabase = await createClient()
+        const { data: { user }, error } = await supabase.auth.getUser()
+
+        if (error || !user) {
+            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+        }
+
+        // Connect to database
+        await connectDB()
+
+        // Check if user exists in MongoDB
+        let mongoUser = await User.findOne({ supabaseId: user.id })
+
+        if (!mongoUser) {
+            // NEW USER: Create with Supabase data as initial values
+            mongoUser = await User.create({
+                supabaseId: user.id,
+                email: user.email,
+                name: user.user_metadata?.full_name || user.email.split('@')[0],
+                avatar: user.user_metadata?.avatar_url || '',
+                profile: {
+                    name: user.user_metadata?.full_name || user.email.split('@')[0],
+                    avatar: user.user_metadata?.avatar_url || '',
+                    phone: ''
+                },
+                role: 'Buyer', // Default role for shopping app
+                addresses: [],
+                preferences: {
+                    categories: [],
+                    priceRange: { min: 0, max: 1000 },
+                    currency: 'USD',
+                    notifications: {
+                        email: true,
+                        push: true,
+                        orderUpdates: true,
+                        deals: true,
+                        newArrivals: false,
+                    },
+                    privacy: {
+                        showEmail: false,
+                        profileVisibility: 'public',
+                    }
+                },
+                searchHistory: [],
+                retailerVerification: {
+                    status: 'none',
+                    appliedAt: null,
+                    verifiedAt: null,
+                    verifiedBy: null
+                },
+                adminPermissions: {
+                    grantedAt: null,
+                    grantedBy: null,
+                    permissions: []
+                },
+                viewedProducts: [],
+                orders: [],
+                reviews: [],
+                lastActive: new Date(),
+                // Track whether profile fields have been manually edited
+                profileEditedFields: {
+                    name: false,
+                    avatar: false,
+                    preferences: false
+                }
+            })
+        } else {
+            // EXISTING USER: Only sync essential auth data, preserve profile edits
+            const updateData = {
+                lastActive: new Date(),
+            }
+
+            // ONLY sync email (auth-critical data)
+            if (user.email && user.email !== mongoUser.email) {
+                updateData.email = user.email
+            }
+
+            // CONDITIONALLY sync name and avatar ONLY if user hasn't edited them
+            if (!mongoUser.profileEditedFields?.name &&
+                user.user_metadata?.full_name &&
+                user.user_metadata.full_name !== mongoUser.name) {
+                // Update both root-level and nested profile name to keep data in sync
+                updateData.name = user.user_metadata.full_name
+                updateData["profile.name"] = user.user_metadata.full_name
+            }
+
+            if (!mongoUser.profileEditedFields?.avatar &&
+                user.user_metadata?.avatar_url &&
+                user.user_metadata.avatar_url !== mongoUser.avatar) {
+                // Update both root-level and nested profile avatar to keep data in sync
+                updateData.avatar = user.user_metadata.avatar_url
+                updateData["profile.avatar"] = user.user_metadata.avatar_url
+            }
+
+            // Initialize missing fields for existing users (one-time migration)
+            if (!mongoUser.preferences) {
+                updateData.preferences = {
+                    categories: [],
+                    priceRange: { min: 0, max: 1000 },
+                    currency: 'USD',
+                    notifications: {
+                        email: true,
+                        push: true,
+                        orderUpdates: true,
+                        deals: true,
+                        newArrivals: false,
+                    },
+                    privacy: {
+                        showEmail: false,
+                        profileVisibility: 'public',
+                    }
+                }
+            }
+
+            if (!mongoUser.searchHistory) {
+                updateData.searchHistory = []
+            }
+
+            if (!mongoUser.viewedProducts) {
+                updateData.viewedProducts = []
+            }
+
+            if (!mongoUser.orders) {
+                updateData.orders = []
+            }
+
+            if (!mongoUser.reviews) {
+                updateData.reviews = []
+            }
+
+            // Initialize retailerVerification for existing users
+            if (!mongoUser.retailerVerification) {
+                updateData.retailerVerification = {
+                    status: 'none',
+                    appliedAt: null,
+                    verifiedAt: null,
+                    verifiedBy: null
+                }
+            }
+
+            // Initialize adminPermissions for existing users
+            if (!mongoUser.adminPermissions) {
+                updateData.adminPermissions = {
+                    grantedAt: null,
+                    grantedBy: null,
+                    permissions: []
+                }
+            }
+
+            // Initialize profileEditedFields for existing users
+            if (!mongoUser.profileEditedFields) {
+                updateData.profileEditedFields = {
+                    name: false,
+                    avatar: false,
+                    preferences: false
+                }
+            }
+
+            mongoUser = await User.findByIdAndUpdate(
+                mongoUser._id,
+                updateData,
+                { new: true, runValidators: true }
+            )
+        }
+
+        // Return safe user data for shopping app
+        const safeUserData = {
+            _id: mongoUser._id,
+            supabaseId: mongoUser.supabaseId,
+            email: mongoUser.email,
+            name: mongoUser.name,
+            avatar: mongoUser.avatar,
+            role: mongoUser.role,
+            profile: mongoUser.profile,
+            addresses: mongoUser.addresses,
+            preferences: mongoUser.preferences,
+            searchHistory: mongoUser.searchHistory,
+            viewedProducts: mongoUser.viewedProducts,
+            orders: mongoUser.orders,
+            reviews: mongoUser.reviews,
+            retailerVerification: mongoUser.retailerVerification,
+            adminPermissions: mongoUser.adminPermissions,
+            createdAt: mongoUser.createdAt,
+            lastActive: mongoUser.lastActive,
+        }
+
+        return NextResponse.json({ user: safeUserData }, { status: 200 })
+    } catch (error) {
+        console.error('User sync error:', error)
+
+        // Handle validation errors
+        if (error.name === 'ValidationError') {
+            return NextResponse.json({
+                error: 'User data validation failed',
+                details: error.message
+            }, { status: 400 })
+        }
+
+        // Handle duplicate key errors
+        if (error.code === 11000) {
+            return NextResponse.json({
+                error: 'User already exists with this email or Supabase ID'
+            }, { status: 409 })
+        }
+
+        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

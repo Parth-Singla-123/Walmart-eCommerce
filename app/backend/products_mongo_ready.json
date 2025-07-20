@@ -1,0 +1,4466 @@
+[
+  {
+    "productId": "1752430714145",
+    "name": "Banana",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/611/124/210/2941/front_en.27.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 91.57,
+    "details": "High-quality banana, carefully selected for freshness and taste.",
+    "stock": 88,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433608"
+  },
+  {
+    "productId": "1752430720970",
+    "name": "Bag of Organic Bananas",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Organic_foods.jpg/135px-Organic_foods.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 86.89,
+    "details": "High-quality bag of organic bananas, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433626"
+  },
+  {
+    "productId": "1752430724797",
+    "name": "Organic Strawberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/886/230/2500/front_en.39.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 289.47,
+    "details": "High-quality organic strawberries, carefully selected for freshness and taste.",
+    "stock": 77,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.433635"
+  },
+  {
+    "productId": "1752430729018",
+    "name": "Organic Baby Spinach",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/260/190/1509/front_en.16.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 78.15,
+    "details": "High-quality organic baby spinach, carefully selected for freshness and taste.",
+    "stock": 47,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.433644"
+  },
+  {
+    "productId": "1752430732529",
+    "name": "Organic Hass Avocado",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/844/550/915/8647/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 240.74,
+    "details": "High-quality organic hass avocado, carefully selected for freshness and taste.",
+    "stock": 55,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433652"
+  },
+  {
+    "productId": "1752430735029",
+    "name": "Organic Avocado",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/022/9030/front_en.9.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 464.95,
+    "details": "High-quality organic avocado, carefully selected for freshness and taste.",
+    "stock": 80,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433660"
+  },
+  {
+    "productId": "1752430738858",
+    "name": "Large Lemon",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/618/300/3152/front_en.19.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 303.2,
+    "details": "High-quality large lemon, carefully selected for freshness and taste.",
+    "stock": 15,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.433667"
+  },
+  {
+    "productId": "1752430742292",
+    "name": "Limes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/776/400/3395/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 171.66,
+    "details": "High-quality limes, carefully selected for freshness and taste.",
+    "stock": 62,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433681"
+  },
+  {
+    "productId": "1752430748330",
+    "name": "Organic Whole Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/658/920/1601/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 324.56,
+    "details": "High-quality organic whole milk, carefully selected for freshness and taste.",
+    "stock": 12,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433692"
+  },
+  {
+    "productId": "1752430752726",
+    "name": "Strawberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/611/124/210/0299/front_ar.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 44.91,
+    "details": "High-quality strawberries, carefully selected for freshness and taste.",
+    "stock": 75,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433700"
+  },
+  {
+    "productId": "1752430756313",
+    "name": "Organic Raspberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/800/150/500/5028/front_fr.26.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 175.98,
+    "details": "High-quality organic raspberries, carefully selected for freshness and taste.",
+    "stock": 43,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433707"
+  },
+  {
+    "productId": "1752430759878",
+    "name": "Organic Yellow Onion",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/338/390/0018/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 144.35,
+    "details": "High-quality organic yellow onion, carefully selected for freshness and taste.",
+    "stock": 27,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433714"
+  },
+  {
+    "productId": "1752430763742",
+    "name": "Organic Garlic",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/500/016/909/0336/front_en.24.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 227.78,
+    "details": "High-quality organic garlic, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.433732"
+  },
+  {
+    "productId": "1752430767997",
+    "name": "Organic Zucchini",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/906/1747/front_de.9.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 162.57,
+    "details": "High-quality organic zucchini, carefully selected for freshness and taste.",
+    "stock": 74,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.433738"
+  },
+  {
+    "productId": "1752430771486",
+    "name": "Organic Blueberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/024/0165/front_en.35.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 126.14,
+    "details": "High-quality organic blueberries, carefully selected for freshness and taste.",
+    "stock": 22,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433745"
+  },
+  {
+    "productId": "1752430774834",
+    "name": "Cucumber Kirby",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/089/848/200/1994/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 297.21,
+    "details": "High-quality cucumber kirby, carefully selected for freshness and taste.",
+    "stock": 72,
+    "category": "Snacks",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433752"
+  },
+  {
+    "productId": "1752430776529",
+    "name": "Organic Fuji Apple",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/088/339/100/4549/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 95.32,
+    "details": "High-quality organic fuji apple, carefully selected for freshness and taste.",
+    "stock": 73,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433759"
+  },
+  {
+    "productId": "1752430781411",
+    "name": "Organic Lemon",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/658/920/4121/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 488.87,
+    "details": "High-quality organic lemon, carefully selected for freshness and taste.",
+    "stock": 75,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433768"
+  },
+  {
+    "productId": "1752430785072",
+    "name": "Organic Grape Tomatoes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/082/692/000/0995/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 466.82,
+    "details": "High-quality organic grape tomatoes, carefully selected for freshness and taste.",
+    "stock": 11,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433776"
+  },
+  {
+    "productId": "1752430789180",
+    "name": "Apple Honeycrisp Organic",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/080/430/508/0350/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 436.51,
+    "details": "High-quality apple honeycrisp organic, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433782"
+  },
+  {
+    "productId": "1752430796257",
+    "name": "Seedless Red Grapes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/001/006/6140/front_en.28.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 254.22,
+    "details": "High-quality seedless red grapes, carefully selected for freshness and taste.",
+    "stock": 55,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433789"
+  },
+  {
+    "productId": "1752430799166",
+    "name": "Sparkling Water Grapefruit",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/900/000/2485/front_en.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 86.91,
+    "details": "High-quality sparkling water grapefruit, carefully selected for freshness and taste.",
+    "stock": 56,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433797"
+  },
+  {
+    "productId": "1752430803388",
+    "name": "Organic Cucumber",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/023/9756/front_ro.111.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 98.64,
+    "details": "High-quality organic cucumber, carefully selected for freshness and taste.",
+    "stock": 60,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433803"
+  },
+  {
+    "productId": "1752430806903",
+    "name": "Honeycrisp Apple",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/081/002/359/0125/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 352.58,
+    "details": "High-quality honeycrisp apple, carefully selected for freshness and taste.",
+    "stock": 79,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.433810"
+  },
+  {
+    "productId": "1752430810088",
+    "name": "Organic Half & Half",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/406/724/5873/front_en.26.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 448.12,
+    "details": "High-quality organic half & half, carefully selected for freshness and taste.",
+    "stock": 34,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433816"
+  },
+  {
+    "productId": "1752430813378",
+    "name": "Organic Baby Carrots",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/502/412/110/0499/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 100.71,
+    "details": "High-quality organic baby carrots, carefully selected for freshness and taste.",
+    "stock": 89,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433823"
+  },
+  {
+    "productId": "1752430817320",
+    "name": "Organic Gala Apples",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/045/5664/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 306.65,
+    "details": "High-quality organic gala apples, carefully selected for freshness and taste.",
+    "stock": 96,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.433830"
+  },
+  {
+    "productId": "1752430821465",
+    "name": "Yellow Onions",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/527/214/5024/front_en.17.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 69.26,
+    "details": "High-quality yellow onions, carefully selected for freshness and taste.",
+    "stock": 41,
+    "category": "Bakery",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433836"
+  },
+  {
+    "productId": "1752430825008",
+    "name": "Organic Baby Arugula",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/260/190/0403/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 180.47,
+    "details": "High-quality organic baby arugula, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.433843"
+  },
+  {
+    "productId": "1752430831256",
+    "name": "Carrots",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/328/178/089/4950/front_fr.18.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 156.36,
+    "details": "High-quality carrots, carefully selected for freshness and taste.",
+    "stock": 43,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433849"
+  },
+  {
+    "productId": "1752430834992",
+    "name": "Asparagus",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/301/136/008/3302/front_fr.138.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 486.61,
+    "details": "High-quality asparagus, carefully selected for freshness and taste.",
+    "stock": 49,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.433859"
+  },
+  {
+    "productId": "1752430838918",
+    "name": "Half & Half",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/036/3174/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 243.32,
+    "details": "High-quality half & half, carefully selected for freshness and taste.",
+    "stock": 31,
+    "category": "Bakery",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.433865"
+  },
+  {
+    "productId": "1752430844486",
+    "name": "Organic Large Extra Fancy Fuji Apple",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/39803/pexels-photo-39803.jpeg?cs=srgb&dl=food-healthy-apple-39803.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 308.93,
+    "details": "High-quality organic large extra fancy fuji apple, carefully selected for freshness and taste.",
+    "stock": 96,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433872"
+  },
+  {
+    "productId": "1752430848905",
+    "name": "Fresh Cauliflower",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/438/884/423/4505/front_de.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 441.42,
+    "details": "High-quality fresh cauliflower, carefully selected for freshness and taste.",
+    "stock": 96,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.433878"
+  },
+  {
+    "productId": "1752430852591",
+    "name": "Organic Cilantro",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/019/589/317/0920/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 396.45,
+    "details": "High-quality organic cilantro, carefully selected for freshness and taste.",
+    "stock": 58,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433886"
+  },
+  {
+    "productId": "1752430858155",
+    "name": "Organic Small Bunch Celery",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 273.95,
+    "details": "High-quality organic small bunch celery, carefully selected for freshness and taste.",
+    "stock": 11,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433892"
+  },
+  {
+    "productId": "1752430872759",
+    "name": "Original Hummus",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/506/050/431/0918/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 348.39,
+    "details": "High-quality original hummus, carefully selected for freshness and taste.",
+    "stock": 16,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.433898"
+  },
+  {
+    "productId": "1752430876824",
+    "name": "Michigan Organic Kale",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 311.31,
+    "details": "High-quality michigan organic kale, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433904"
+  },
+  {
+    "productId": "1752430886189",
+    "name": "Organic Red Onion",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/001/004/1475/front_pl.6.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 54.34,
+    "details": "High-quality organic red onion, carefully selected for freshness and taste.",
+    "stock": 46,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433911"
+  },
+  {
+    "productId": "1752430890761",
+    "name": "Organic Tomato Cluster",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A_scene_of_Tomatoes.JPG/180px-A_scene_of_Tomatoes.JPG",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 247.36,
+    "details": "High-quality organic tomato cluster, carefully selected for freshness and taste.",
+    "stock": 59,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433919"
+  },
+  {
+    "productId": "1752430895677",
+    "name": "Organic Blackberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/071/575/610/0224/front_en.18.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 221.12,
+    "details": "High-quality organic blackberries, carefully selected for freshness and taste.",
+    "stock": 98,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.433925"
+  },
+  {
+    "productId": "1752430905752",
+    "name": "Organic Italian Parsley Bunch",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Parsley_3.jpg/90px-Parsley_3.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 171.37,
+    "details": "High-quality organic italian parsley bunch, carefully selected for freshness and taste.",
+    "stock": 50,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.433933"
+  },
+  {
+    "productId": "1752430908204",
+    "name": "Organic Peeled Whole Baby Carrots",
+    "images": [
+      {
+        "url": "https://images.pexels.com/videos/3973180/bunny-bunny-ears-carrot-child-3973180.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 36.81,
+    "details": "High-quality organic peeled whole baby carrots, carefully selected for freshness and taste.",
+    "stock": 91,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434032"
+  },
+  {
+    "productId": "1752430911437",
+    "name": "100% Whole Wheat Bread",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/225/003/7129/front_en.59.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 231.05,
+    "details": "High-quality 100% whole wheat bread, carefully selected for freshness and taste.",
+    "stock": 81,
+    "category": "Beverages",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434040"
+  },
+  {
+    "productId": "1752430915330",
+    "name": "Red Peppers",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/506/004/264/1413/front_en.109.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 167.57,
+    "details": "High-quality red peppers, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434046"
+  },
+  {
+    "productId": "1752430918407",
+    "name": "Organic Granny Smith Apple",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/008/523/904/9495/front_en.6.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 217.65,
+    "details": "High-quality organic granny smith apple, carefully selected for freshness and taste.",
+    "stock": 47,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434055"
+  },
+  {
+    "productId": "1752430920847",
+    "name": "Green Bell Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/001/380/010/0672/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 153.22,
+    "details": "High-quality green bell pepper, carefully selected for freshness and taste.",
+    "stock": 86,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434061"
+  },
+  {
+    "productId": "1752430925345",
+    "name": "Raspberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/925/8353/front_en.180.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 212.76,
+    "details": "High-quality raspberries, carefully selected for freshness and taste.",
+    "stock": 75,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434068"
+  },
+  {
+    "productId": "1752430928010",
+    "name": "Organic Unsweetened Almond Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7015/front_en.165.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 210.88,
+    "details": "High-quality organic unsweetened almond milk, carefully selected for freshness and taste.",
+    "stock": 93,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434082"
+  },
+  {
+    "productId": "1752430933292",
+    "name": "Organic Red Bell Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/470/711/8637/front_fr.21.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 237.44,
+    "details": "High-quality organic red bell pepper, carefully selected for freshness and taste.",
+    "stock": 47,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434088"
+  },
+  {
+    "productId": "1752430936077",
+    "name": "Organic Whole String Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/948/252/0083/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 32.41,
+    "details": "High-quality organic whole string cheese, carefully selected for freshness and taste.",
+    "stock": 15,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434097"
+  },
+  {
+    "productId": "1752430938230",
+    "name": "Blueberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/047/732/3194/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 381.47,
+    "details": "High-quality blueberries, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434105"
+  },
+  {
+    "productId": "1752430941477",
+    "name": "Spring Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/611/103/500/0430/front_en.104.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 231.53,
+    "details": "High-quality spring water, carefully selected for freshness and taste.",
+    "stock": 25,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434317"
+  },
+  {
+    "productId": "1752430945090",
+    "name": "Hass Avocados",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/014/0478/front_fr.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 335.89,
+    "details": "High-quality hass avocados, carefully selected for freshness and taste.",
+    "stock": 80,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434325"
+  },
+  {
+    "productId": "1752430948150",
+    "name": "Red Vine Tomato",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/000/4664/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 135.11,
+    "details": "High-quality red vine tomato, carefully selected for freshness and taste.",
+    "stock": 32,
+    "category": "Beverages",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434331"
+  },
+  {
+    "productId": "1752430950086",
+    "name": "Organic Kiwi",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/470/711/7821/front_fr.22.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 330.43,
+    "details": "High-quality organic kiwi, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434349"
+  },
+  {
+    "productId": "1752430953745",
+    "name": "Organic Ginger Root",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/062/837/119/0320/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 35.2,
+    "details": "High-quality organic ginger root, carefully selected for freshness and taste.",
+    "stock": 41,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434357"
+  },
+  {
+    "productId": "1752430957813",
+    "name": "Small Hass Avocado",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/775/126/200/3096/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 332.35,
+    "details": "High-quality small hass avocado, carefully selected for freshness and taste.",
+    "stock": 69,
+    "category": "Beverages",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434363"
+  },
+  {
+    "productId": "1752430960951",
+    "name": "Organic Garnet Sweet Potato (Yam)",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 182.7,
+    "details": "High-quality organic garnet sweet potato (yam), carefully selected for freshness and taste.",
+    "stock": 31,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434478"
+  },
+  {
+    "productId": "1752430969801",
+    "name": "Extra Virgin Olive Oil",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/914/1877/front_en.93.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 328.03,
+    "details": "High-quality extra virgin olive oil, carefully selected for freshness and taste.",
+    "stock": 74,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434529"
+  },
+  {
+    "productId": "1752430975437",
+    "name": "Boneless Skinless Chicken Breasts",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/029/6946/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 448.9,
+    "details": "High-quality boneless skinless chicken breasts, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434539"
+  },
+  {
+    "productId": "1752430978410",
+    "name": "Organic Reduced Fat 2% Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7985/front_fr.139.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 455.37,
+    "details": "High-quality organic reduced fat 2% milk, carefully selected for freshness and taste.",
+    "stock": 62,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434548"
+  },
+  {
+    "productId": "1752430982478",
+    "name": "Unsweetened Almondmilk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/157/005/6707/front_en.54.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 309.57,
+    "details": "High-quality unsweetened almondmilk, carefully selected for freshness and taste.",
+    "stock": 19,
+    "category": "Bakery",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434556"
+  },
+  {
+    "productId": "1752430986383",
+    "name": "Organic D'Anjou Pears",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/088/828/940/2544/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 285.52,
+    "details": "High-quality organic d'anjou pears, carefully selected for freshness and taste.",
+    "stock": 93,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434569"
+  },
+  {
+    "productId": "1752430988476",
+    "name": "Organic Navel Orange",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/470/708/3614/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 124.37,
+    "details": "High-quality organic navel orange, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434582"
+  },
+  {
+    "productId": "1752430991817",
+    "name": "Grated Parmesan",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/100/001/0615/front_en.13.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 426.56,
+    "details": "High-quality grated parmesan, carefully selected for freshness and taste.",
+    "stock": 98,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434609"
+  },
+  {
+    "productId": "1752430994953",
+    "name": "Lime Sparkling Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/506/048/973/0657/front_en.19.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 233.56,
+    "details": "High-quality lime sparkling water, carefully selected for freshness and taste.",
+    "stock": 61,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434616"
+  },
+  {
+    "productId": "1752430998328",
+    "name": "Bunched Cilantro",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Bunch_of_cilantro.jpg/135px-Bunch_of_cilantro.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 330.96,
+    "details": "High-quality bunched cilantro, carefully selected for freshness and taste.",
+    "stock": 43,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434629"
+  },
+  {
+    "productId": "1752431000424",
+    "name": "Jalapeno Peppers",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/048/4804/front_en.36.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 360.66,
+    "details": "High-quality jalapeno peppers, carefully selected for freshness and taste.",
+    "stock": 54,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434636"
+  },
+  {
+    "productId": "1752431003446",
+    "name": "Orange Bell Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/082/466/020/0224/front_zh.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 274.14,
+    "details": "High-quality orange bell pepper, carefully selected for freshness and taste.",
+    "stock": 55,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434643"
+  },
+  {
+    "productId": "1752431005887",
+    "name": "Large Alfresco Eggs",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1352251/pexels-photo-1352251.jpeg?cs=srgb&dl=food-restaurant-hand-1352251.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 179.02,
+    "details": "High-quality large alfresco eggs, carefully selected for freshness and taste.",
+    "stock": 31,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434650"
+  },
+  {
+    "productId": "1752431010183",
+    "name": "Roma Tomato",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/101/029/2113/front_fr.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 186.89,
+    "details": "High-quality roma tomato, carefully selected for freshness and taste.",
+    "stock": 28,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434656"
+  },
+  {
+    "productId": "1752431012858",
+    "name": "Red Onion",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/505/605/330/4720/front_en.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 145.12,
+    "details": "High-quality red onion, carefully selected for freshness and taste.",
+    "stock": 64,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434670"
+  },
+  {
+    "productId": "1752431016070",
+    "name": "Organic Bartlett Pear",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/141/512/6145/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 38.66,
+    "details": "High-quality organic bartlett pear, carefully selected for freshness and taste.",
+    "stock": 59,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434677"
+  },
+  {
+    "productId": "1752431018621",
+    "name": "Sparkling Natural Mineral Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/150/880/0129/front_en.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 150.53,
+    "details": "High-quality sparkling natural mineral water, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434684"
+  },
+  {
+    "productId": "1752431022393",
+    "name": "Organic Lacinato (Dinosaur) Kale",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 31.39,
+    "details": "High-quality organic lacinato (dinosaur) kale, carefully selected for freshness and taste.",
+    "stock": 15,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434691"
+  },
+  {
+    "productId": "1752431030327",
+    "name": "Broccoli Crown",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/085/751/400/4143/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 170.41,
+    "details": "High-quality broccoli crown, carefully selected for freshness and taste.",
+    "stock": 69,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.434698"
+  },
+  {
+    "productId": "1752431032442",
+    "name": "Clementines, Bag",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/39251/tangerines-clementines-fruit-fruits-39251.jpeg?cs=srgb&dl=essen-orangen-frucht-39251.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 455.49,
+    "details": "High-quality clementines, bag, carefully selected for freshness and taste.",
+    "stock": 19,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434705"
+  },
+  {
+    "productId": "1752431039308",
+    "name": "Uncured Genoa Salami",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/531/765/6009/front_en.7.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 469.71,
+    "details": "High-quality uncured genoa salami, carefully selected for freshness and taste.",
+    "stock": 13,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434715"
+  },
+  {
+    "productId": "1752431042894",
+    "name": "Organic Grade A Free Range Large Brown Eggs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/681/1216/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 175.24,
+    "details": "High-quality organic grade a free range large brown eggs, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434722"
+  },
+  {
+    "productId": "1752431045835",
+    "name": "Granny Smith Apples",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/918/6267/front_fr.15.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 112.37,
+    "details": "High-quality granny smith apples, carefully selected for freshness and taste.",
+    "stock": 63,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434732"
+  },
+  {
+    "productId": "1752431049172",
+    "name": "Organic Carrot Bunch",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/338/390/2043/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 354.7,
+    "details": "High-quality organic carrot bunch, carefully selected for freshness and taste.",
+    "stock": 75,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434739"
+  },
+  {
+    "productId": "1752431051243",
+    "name": "Organic Broccoli",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/327/016/075/7046/front_fr.37.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 439.5,
+    "details": "High-quality organic broccoli, carefully selected for freshness and taste.",
+    "stock": 35,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434745"
+  },
+  {
+    "productId": "1752431054659",
+    "name": "100% Raw Coconut Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/843/701/539/3070/front_en.37.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 385.87,
+    "details": "High-quality 100% raw coconut water, carefully selected for freshness and taste.",
+    "stock": 86,
+    "category": "Snacks",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434751"
+  },
+  {
+    "productId": "1752431059014",
+    "name": "2% Reduced Fat Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/401/624/103/0573/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 358.82,
+    "details": "High-quality 2% reduced fat milk, carefully selected for freshness and taste.",
+    "stock": 65,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434758"
+  },
+  {
+    "productId": "1752431062368",
+    "name": "Grape White/Green Seedless",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2012-9-Gingers-Hill-11.jpg/180px-2012-9-Gingers-Hill-11.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 258.89,
+    "details": "High-quality grape white/green seedless, carefully selected for freshness and taste.",
+    "stock": 23,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434770"
+  },
+  {
+    "productId": "1752431064504",
+    "name": "Whole Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/611/124/210/1180/front_fr.69.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 462.46,
+    "details": "High-quality whole milk, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434777"
+  },
+  {
+    "productId": "1752431067788",
+    "name": "Shredded Parmesan",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/956/860/0048/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 243.36,
+    "details": "High-quality shredded parmesan, carefully selected for freshness and taste.",
+    "stock": 25,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434783"
+  },
+  {
+    "productId": "1752431071200",
+    "name": "Organic Romaine Lettuce",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/914/8456/front_de.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 408.03,
+    "details": "High-quality organic romaine lettuce, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434790"
+  },
+  {
+    "productId": "1752431073781",
+    "name": "Organic Black Beans",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/272/230/9791/front_en.37.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 446.33,
+    "details": "High-quality organic black beans, carefully selected for freshness and taste.",
+    "stock": 60,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434796"
+  },
+  {
+    "productId": "1752431078227",
+    "name": "Bartlett Pears",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/171/294/4909/front_en.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 476.38,
+    "details": "High-quality bartlett pears, carefully selected for freshness and taste.",
+    "stock": 11,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434803"
+  },
+  {
+    "productId": "1752431081238",
+    "name": "Garlic",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/001/059/6975/front_en.35.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 487.67,
+    "details": "High-quality garlic, carefully selected for freshness and taste.",
+    "stock": 14,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434809"
+  },
+  {
+    "productId": "1752431084029",
+    "name": "Unsalted Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/345/179/098/8677/front_en.186.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 261.59,
+    "details": "High-quality unsalted butter, carefully selected for freshness and taste.",
+    "stock": 42,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434815"
+  },
+  {
+    "productId": "1752431087434",
+    "name": "Soda",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/005/449/1472/front_en.513.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 68.35,
+    "details": "High-quality soda, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.434822"
+  },
+  {
+    "productId": "1752431090973",
+    "name": "Organic Reduced Fat Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7985/front_fr.139.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 387.25,
+    "details": "High-quality organic reduced fat milk, carefully selected for freshness and taste.",
+    "stock": 66,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.434828"
+  },
+  {
+    "productId": "1752431094837",
+    "name": "Organic Sticks Low Moisture Part Skim Mozzarella String Cheese",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 155.03,
+    "details": "High-quality organic sticks low moisture part skim mozzarella string cheese, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434835"
+  },
+  {
+    "productId": "1752431100945",
+    "name": "Unsweetened Original Almond Breeze Almond Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/157/005/6707/front_en.54.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 66.51,
+    "details": "High-quality unsweetened original almond breeze almond milk, carefully selected for freshness and taste.",
+    "stock": 77,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434841"
+  },
+  {
+    "productId": "1752431104363",
+    "name": "Sparkling Lemon Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/507/000/012/0775/front_en.27.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 469.09,
+    "details": "High-quality sparkling lemon water, carefully selected for freshness and taste.",
+    "stock": 82,
+    "category": "Bakery",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434847"
+  },
+  {
+    "productId": "1752431107653",
+    "name": "Organic Spring Mix",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/260/190/1400/front_en.8.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 485.87,
+    "details": "High-quality organic spring mix, carefully selected for freshness and taste.",
+    "stock": 72,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434853"
+  },
+  {
+    "productId": "1752431111453",
+    "name": "Organic Large Brown Grade AA Cage Free Eggs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/942/7383/front_en.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 404.96,
+    "details": "High-quality organic large brown grade aa cage free eggs, carefully selected for freshness and taste.",
+    "stock": 95,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434860"
+  },
+  {
+    "productId": "1752431113368",
+    "name": "Organic Whole Strawberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/068/745/622/3537/front_en.13.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 436.23,
+    "details": "High-quality organic whole strawberries, carefully selected for freshness and taste.",
+    "stock": 73,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434868"
+  },
+  {
+    "productId": "1752431117002",
+    "name": "Organic Baby Broccoli",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/085/000/389/8032/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 395.62,
+    "details": "High-quality organic baby broccoli, carefully selected for freshness and taste.",
+    "stock": 40,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.434878"
+  },
+  {
+    "productId": "1752431120768",
+    "name": "Pure Irish Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/500/016/502/4014/front_en.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 219.95,
+    "details": "High-quality pure irish butter, carefully selected for freshness and taste.",
+    "stock": 91,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.434889"
+  },
+  {
+    "productId": "1752431126691",
+    "name": "Organic Broccoli Florets",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/930/8293/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 366.59,
+    "details": "High-quality organic broccoli florets, carefully selected for freshness and taste.",
+    "stock": 15,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.434904"
+  },
+  {
+    "productId": "1752431134939",
+    "name": "Vanilla Almond Breeze Almond Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/157/011/0089/front_en.13.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 359.27,
+    "details": "High-quality vanilla almond breeze almond milk, carefully selected for freshness and taste.",
+    "stock": 56,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435036"
+  },
+  {
+    "productId": "1752431153713",
+    "name": "Feta Cheese Crumbles",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/027/700/0072/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 29.95,
+    "details": "High-quality feta cheese crumbles, carefully selected for freshness and taste.",
+    "stock": 50,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435055"
+  },
+  {
+    "productId": "1752431158147",
+    "name": "Sharp Cheddar Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/835/470/8439/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 414.1,
+    "details": "High-quality sharp cheddar cheese, carefully selected for freshness and taste.",
+    "stock": 78,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435071"
+  },
+  {
+    "productId": "1752431163419",
+    "name": "Organic Russet Potato",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/062/851/400/1094/front_en.35.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 286.59,
+    "details": "High-quality organic russet potato, carefully selected for freshness and taste.",
+    "stock": 99,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435082"
+  },
+  {
+    "productId": "1752431166077",
+    "name": "Clementines",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/800/227/066/6667/front_fr.48.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 447.32,
+    "details": "High-quality clementines, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435094"
+  },
+  {
+    "productId": "1752431170023",
+    "name": "Whipped Cream Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/100/061/9849/front_en.13.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 90.5,
+    "details": "High-quality whipped cream cheese, carefully selected for freshness and taste.",
+    "stock": 58,
+    "category": "Snacks",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435113"
+  },
+  {
+    "productId": "1752431174423",
+    "name": "Russet Potato",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/074/5437/front_en.11.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 274.55,
+    "details": "High-quality russet potato, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435132"
+  },
+  {
+    "productId": "1752431177487",
+    "name": "Total 2% with Strawberry Lowfat Greek Strained Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fresh_greek_yoghurt.jpg/180px-Fresh_greek_yoghurt.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 169.88,
+    "details": "High-quality total 2% with strawberry lowfat greek strained yogurt, carefully selected for freshness and taste.",
+    "stock": 12,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435154"
+  },
+  {
+    "productId": "1752431180233",
+    "name": "Italian Sparkling Mineral Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/940/1970/front_en.27.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 32.51,
+    "details": "High-quality italian sparkling mineral water, carefully selected for freshness and taste.",
+    "stock": 73,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435161"
+  },
+  {
+    "productId": "1752431183876",
+    "name": "Fat Free Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/401/624/103/0573/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 84.62,
+    "details": "High-quality fat free milk, carefully selected for freshness and taste.",
+    "stock": 85,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435170"
+  },
+  {
+    "productId": "1752431187956",
+    "name": "Organic Extra Firm Tofu",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/368/330/7385/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 154.4,
+    "details": "High-quality organic extra firm tofu, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435181"
+  },
+  {
+    "productId": "1752431191518",
+    "name": "Shredded Mild Cheddar Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/610/041/1063/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 176.14,
+    "details": "High-quality shredded mild cheddar cheese, carefully selected for freshness and taste.",
+    "stock": 25,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435211"
+  },
+  {
+    "productId": "1752431195158",
+    "name": "Frozen Organic Wild Blueberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/006/038/370/9266/front_en.31.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 305.17,
+    "details": "High-quality frozen organic wild blueberries, carefully selected for freshness and taste.",
+    "stock": 15,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435218"
+  },
+  {
+    "productId": "1752431197828",
+    "name": "Pure Sparkling Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/336/070/7513/front_en.19.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 213.25,
+    "details": "High-quality pure sparkling water, carefully selected for freshness and taste.",
+    "stock": 27,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435225"
+  },
+  {
+    "productId": "1752431202023",
+    "name": "Ground Turkey Breast",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/222/230/2043/front_en.74.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 457.82,
+    "details": "High-quality ground turkey breast, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435232"
+  },
+  {
+    "productId": "1752431207176",
+    "name": "100% Recycled Paper Towels",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 448.46,
+    "details": "High-quality 100% recycled paper towels, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435242"
+  },
+  {
+    "productId": "1752431222756",
+    "name": "Organic Roasted Turkey Breast",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/150/662/7187/front_en.38.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 38.63,
+    "details": "High-quality organic roasted turkey breast, carefully selected for freshness and taste.",
+    "stock": 44,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435252"
+  },
+  {
+    "productId": "1752431229029",
+    "name": "Organic Garbanzo Beans",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/050/2610/front_en.133.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 338.97,
+    "details": "High-quality organic garbanzo beans, carefully selected for freshness and taste.",
+    "stock": 19,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435266"
+  },
+  {
+    "productId": "1752431233414",
+    "name": "Organic Roma Tomato",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/076/317/100/0704/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 328.72,
+    "details": "High-quality organic roma tomato, carefully selected for freshness and taste.",
+    "stock": 16,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435280"
+  },
+  {
+    "productId": "1752431236239",
+    "name": "Organic Red Radish, Bunch",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/26859513/pexels-photo-26859513/free-photo-of-bunch-of-fresh-radishes.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 128.61,
+    "details": "High-quality organic red radish, bunch, carefully selected for freshness and taste.",
+    "stock": 18,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435292"
+  },
+  {
+    "productId": "1752431239444",
+    "name": "Unsweetened Vanilla Almond Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/953/3008/front_en.74.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 135.54,
+    "details": "High-quality unsweetened vanilla almond milk, carefully selected for freshness and taste.",
+    "stock": 82,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435304"
+  },
+  {
+    "productId": "1752431247278",
+    "name": "Organic Hothouse Cucumbers",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1656664/pexels-photo-1656664.jpeg?cs=srgb&dl=cucumbers-and-tomatoes-1656664.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 392.06,
+    "details": "High-quality organic hothouse cucumbers, carefully selected for freshness and taste.",
+    "stock": 78,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435311"
+  },
+  {
+    "productId": "1752431252860",
+    "name": "Organic Fat Free Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/509/974/900/1893/front_en.15.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 297.74,
+    "details": "High-quality organic fat free milk, carefully selected for freshness and taste.",
+    "stock": 58,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435318"
+  },
+  {
+    "productId": "1752431258494",
+    "name": "Organic Sour Cream",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/406/724/5873/front_en.26.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 233.01,
+    "details": "High-quality organic sour cream, carefully selected for freshness and taste.",
+    "stock": 39,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435326"
+  },
+  {
+    "productId": "1752431262186",
+    "name": "Green Beans",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/005/045/7243/front_en.78.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 43.36,
+    "details": "High-quality green beans, carefully selected for freshness and taste.",
+    "stock": 14,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435332"
+  },
+  {
+    "productId": "1752431265637",
+    "name": "Red Raspberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/872/025/608/2460/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 453.46,
+    "details": "High-quality red raspberries, carefully selected for freshness and taste.",
+    "stock": 96,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435339"
+  },
+  {
+    "productId": "1752431268783",
+    "name": "Organic Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/658/925/2450/front_en.50.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 278.36,
+    "details": "High-quality organic milk, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435348"
+  },
+  {
+    "productId": "1752431272552",
+    "name": "Watermelon Chunks",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/009/5280/front_fr.16.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 164.32,
+    "details": "High-quality watermelon chunks, carefully selected for freshness and taste.",
+    "stock": 57,
+    "category": "Snacks",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435358"
+  },
+  {
+    "productId": "1752431275548",
+    "name": "Green Onions",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/541/004/147/2509/front_nb.93.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 454.2,
+    "details": "High-quality green onions, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Bakery",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435368"
+  },
+  {
+    "productId": "1752431279420",
+    "name": "Organic Coconut Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7985/front_fr.139.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 100.14,
+    "details": "High-quality organic coconut milk, carefully selected for freshness and taste.",
+    "stock": 99,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435380"
+  },
+  {
+    "productId": "1752431282716",
+    "name": "Yellow Bell Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/470/711/8637/front_fr.21.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 259.39,
+    "details": "High-quality yellow bell pepper, carefully selected for freshness and taste.",
+    "stock": 73,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435391"
+  },
+  {
+    "productId": "1752431286835",
+    "name": "Romaine Hearts",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/001/003/4378/front_en.9.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 187.98,
+    "details": "High-quality romaine hearts, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Bakery",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435401"
+  },
+  {
+    "productId": "1752431289665",
+    "name": "No Salt Added Black Beans",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/006/038/385/9404/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 414.56,
+    "details": "High-quality no salt added black beans, carefully selected for freshness and taste.",
+    "stock": 82,
+    "category": "Snacks",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435407"
+  },
+  {
+    "productId": "1752431298519",
+    "name": "Organic Heavy Whipping Cream",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/600/0283/front_en.30.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 276.47,
+    "details": "High-quality organic heavy whipping cream, carefully selected for freshness and taste.",
+    "stock": 90,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435413"
+  },
+  {
+    "productId": "1752431301208",
+    "name": "Honey Nut Cheerios",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/001/600/012/4790/front_en.62.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 169.42,
+    "details": "High-quality honey nut cheerios, carefully selected for freshness and taste.",
+    "stock": 87,
+    "category": "Beverages",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435420"
+  },
+  {
+    "productId": "1752431304779",
+    "name": "Total Greek Strained Yogurt",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/068/954/408/1562/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 49.5,
+    "details": "High-quality total greek strained yogurt, carefully selected for freshness and taste.",
+    "stock": 38,
+    "category": "Bakery",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435432"
+  },
+  {
+    "productId": "1752431307215",
+    "name": "Total 2% All Natural Greek Strained Yogurt with Honey",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 78.63,
+    "details": "High-quality total 2% all natural greek strained yogurt with honey, carefully selected for freshness and taste.",
+    "stock": 44,
+    "category": "Bakery",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435448"
+  },
+  {
+    "productId": "1752431316364",
+    "name": "Organic Basil",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/906/8204/front_fr.65.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 225.16,
+    "details": "High-quality organic basil, carefully selected for freshness and taste.",
+    "stock": 11,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435458"
+  },
+  {
+    "productId": "1752431319597",
+    "name": "Original Orange Juice",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/850/020/2746/front_en.11.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 228.51,
+    "details": "High-quality original orange juice, carefully selected for freshness and taste.",
+    "stock": 69,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435464"
+  },
+  {
+    "productId": "1752431325966",
+    "name": "Total 0% Greek Yogurt",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/663/200/8350/front_en.19.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 111.83,
+    "details": "High-quality total 0% greek yogurt, carefully selected for freshness and taste.",
+    "stock": 23,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435471"
+  },
+  {
+    "productId": "1752431328576",
+    "name": "Cantaloupe",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/002/095/0705/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 44.62,
+    "details": "High-quality cantaloupe, carefully selected for freshness and taste.",
+    "stock": 47,
+    "category": "Beverages",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435479"
+  },
+  {
+    "productId": "1752431331420",
+    "name": "Lightly Salted Baked Snap Pea Crisps",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/114/600/8274/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 495.69,
+    "details": "High-quality lightly salted baked snap pea crisps, carefully selected for freshness and taste.",
+    "stock": 84,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435485"
+  },
+  {
+    "productId": "1752431333748",
+    "name": "Gala Apples",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/324/9659/front_en.43.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 130.76,
+    "details": "High-quality gala apples, carefully selected for freshness and taste.",
+    "stock": 54,
+    "category": "Beverages",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435495"
+  },
+  {
+    "productId": "1752431336756",
+    "name": "Boneless Skinless Chicken Breast",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/029/6946/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 85.41,
+    "details": "High-quality boneless skinless chicken breast, carefully selected for freshness and taste.",
+    "stock": 90,
+    "category": "Bakery",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435503"
+  },
+  {
+    "productId": "1752431340634",
+    "name": "Fresh Ginger Root",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/009/614/7450/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 386.12,
+    "details": "High-quality fresh ginger root, carefully selected for freshness and taste.",
+    "stock": 28,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435509"
+  },
+  {
+    "productId": "1752431343973",
+    "name": "Organic 2% Reduced Fat Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7985/front_fr.139.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 308.83,
+    "details": "High-quality organic 2% reduced fat milk, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435516"
+  },
+  {
+    "productId": "1752431348238",
+    "name": "Organic Large Grade AA Brown Eggs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/942/7383/front_en.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 413.89,
+    "details": "High-quality organic large grade aa brown eggs, carefully selected for freshness and taste.",
+    "stock": 89,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435524"
+  },
+  {
+    "productId": "1752431350388",
+    "name": "Total 0% Nonfat Greek Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 435.87,
+    "details": "High-quality total 0% nonfat greek yogurt, carefully selected for freshness and taste.",
+    "stock": 99,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435535"
+  },
+  {
+    "productId": "1752431359424",
+    "name": "Pineapple Chunks",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/505/951/272/9492/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 214.31,
+    "details": "High-quality pineapple chunks, carefully selected for freshness and taste.",
+    "stock": 90,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435550"
+  },
+  {
+    "productId": "1752431364020",
+    "name": "Organic White Onions",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/222/797/5322/front_en.25.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 244.09,
+    "details": "High-quality organic white onions, carefully selected for freshness and taste.",
+    "stock": 28,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435558"
+  },
+  {
+    "productId": "1752431368563",
+    "name": "Organic Bosc Pear",
+    "images": [
+      {
+        "url": "https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGR3YXRlcmNvbG9yZnJ1aXRiYXRjaDEtMTA5MC1nbG95LWJfMS5qcGc.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 445.7,
+    "details": "High-quality organic bosc pear, carefully selected for freshness and taste.",
+    "stock": 65,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435565"
+  },
+  {
+    "productId": "1752431389535",
+    "name": "Organic Spring Mix Salad",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/260/190/0175/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 369.09,
+    "details": "High-quality organic spring mix salad, carefully selected for freshness and taste.",
+    "stock": 44,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435637"
+  },
+  {
+    "productId": "1752431393450",
+    "name": "Organic Diced Tomatoes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/993/7325/front_en.42.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 466.67,
+    "details": "High-quality organic diced tomatoes, carefully selected for freshness and taste.",
+    "stock": 34,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435648"
+  },
+  {
+    "productId": "1752431397171",
+    "name": "Organic Romaine",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/341/796/000/0105/front_fr.14.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 238.41,
+    "details": "High-quality organic romaine, carefully selected for freshness and taste.",
+    "stock": 98,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435657"
+  },
+  {
+    "productId": "1752431400697",
+    "name": "Uncured Hickory Smoked Sunday Bacon",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg?cs=srgb&dl=bacon-biscuit-breakfast-139746.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 334.69,
+    "details": "High-quality uncured hickory smoked sunday bacon, carefully selected for freshness and taste.",
+    "stock": 87,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435664"
+  },
+  {
+    "productId": "1752431408253",
+    "name": "Organic Bell Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/470/711/8637/front_fr.21.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 170.93,
+    "details": "High-quality organic bell pepper, carefully selected for freshness and taste.",
+    "stock": 65,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435671"
+  },
+  {
+    "productId": "1752431413504",
+    "name": "Heavy Whipping Cream",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/600/0283/front_en.30.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 94.02,
+    "details": "High-quality heavy whipping cream, carefully selected for freshness and taste.",
+    "stock": 99,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435703"
+  },
+  {
+    "productId": "1752431418108",
+    "name": "Organic Bread with 21 Whole Grains",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/001/376/402/7053/front_en.124.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 471.4,
+    "details": "High-quality organic bread with 21 whole grains, carefully selected for freshness and taste.",
+    "stock": 49,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435714"
+  },
+  {
+    "productId": "1752431420578",
+    "name": "Milk, Organic, Vitamin D",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/658/925/4874/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 329.55,
+    "details": "High-quality milk, organic, vitamin d, carefully selected for freshness and taste.",
+    "stock": 85,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435720"
+  },
+  {
+    "productId": "1752431424948",
+    "name": "Organic Unsalted Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/500/024/672/8794/front_en.11.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 467.12,
+    "details": "High-quality organic unsalted butter, carefully selected for freshness and taste.",
+    "stock": 74,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435726"
+  },
+  {
+    "productId": "1752431428183",
+    "name": "Blackberries",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/505/737/318/4818/front_en.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 79.83,
+    "details": "High-quality blackberries, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.435732"
+  },
+  {
+    "productId": "1752431431226",
+    "name": "Creamy Almond Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/506/048/284/2418/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 481.42,
+    "details": "High-quality creamy almond butter, carefully selected for freshness and taste.",
+    "stock": 13,
+    "category": "Snacks",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435738"
+  },
+  {
+    "productId": "1752431434725",
+    "name": "Organic Frozen Peas",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/327/019/020/7351/front_fr.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 73.67,
+    "details": "High-quality organic frozen peas, carefully selected for freshness and taste.",
+    "stock": 69,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435746"
+  },
+  {
+    "productId": "1752431439208",
+    "name": "Organic Green Seedless Grapes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/081/642/601/2509/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 350.64,
+    "details": "High-quality organic green seedless grapes, carefully selected for freshness and taste.",
+    "stock": 27,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435752"
+  },
+  {
+    "productId": "1752431443077",
+    "name": "Peach Pear Flavored Sparkling Water",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Still_Life_of_Apples,_Pears,_Peaches_and_Plums_with_Grapes_and_Walnuts_by_Johannes_Baers.jpg/120px-Still_Life_of_Apples,_Pears,_Peaches_and_Plums_with_Grapes_and_Walnuts_by_Johannes_Baers.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 484.56,
+    "details": "High-quality peach pear flavored sparkling water, carefully selected for freshness and taste.",
+    "stock": 79,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435760"
+  },
+  {
+    "productId": "1752431446458",
+    "name": "Shredded Mozzarella",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/941/5557/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 267.68,
+    "details": "High-quality shredded mozzarella, carefully selected for freshness and taste.",
+    "stock": 59,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435766"
+  },
+  {
+    "productId": "1752431450203",
+    "name": "Cherubs Heavenly Salad Tomatoes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/075/166/677/1550/front_en.15.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 448.99,
+    "details": "High-quality cherubs heavenly salad tomatoes, carefully selected for freshness and taste.",
+    "stock": 39,
+    "category": "Bakery",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.435773"
+  },
+  {
+    "productId": "1752431452044",
+    "name": "Organic Raw Kombucha Gingerade",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/072/243/020/0163/front_en.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 322.66,
+    "details": "High-quality organic raw kombucha gingerade, carefully selected for freshness and taste.",
+    "stock": 77,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435780"
+  },
+  {
+    "productId": "1752431454456",
+    "name": "Baby Spinach",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/169/5878/front_en.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 281.4,
+    "details": "High-quality baby spinach, carefully selected for freshness and taste.",
+    "stock": 14,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435786"
+  },
+  {
+    "productId": "1752431457577",
+    "name": "Icelandic Style Skyr Blueberry Non-fat Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Skyr_bought_in_the_grocery_store.jpg/180px-Skyr_bought_in_the_grocery_store.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 438.12,
+    "details": "High-quality icelandic style skyr blueberry non-fat yogurt, carefully selected for freshness and taste.",
+    "stock": 91,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435805"
+  },
+  {
+    "productId": "1752431459961",
+    "name": "Organic Celery Hearts",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/064/0275/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 238.16,
+    "details": "High-quality organic celery hearts, carefully selected for freshness and taste.",
+    "stock": 46,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.435951"
+  },
+  {
+    "productId": "1752431462125",
+    "name": "Creamy Peanut Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/760/010/6009/front_en.16.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 437.9,
+    "details": "High-quality creamy peanut butter, carefully selected for freshness and taste.",
+    "stock": 60,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.435960"
+  },
+  {
+    "productId": "1752431465467",
+    "name": "Sour Cream",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/505/399/010/1597/front_en.55.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 170.26,
+    "details": "High-quality sour cream, carefully selected for freshness and taste.",
+    "stock": 42,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435969"
+  },
+  {
+    "productId": "1752431468796",
+    "name": "Organic Jalapeno Pepper",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/732/812/0005/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 209.09,
+    "details": "High-quality organic jalapeno pepper, carefully selected for freshness and taste.",
+    "stock": 57,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.435975"
+  },
+  {
+    "productId": "1752431473129",
+    "name": "Brussels Sprouts",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/007/147/9367/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 483.54,
+    "details": "High-quality brussels sprouts, carefully selected for freshness and taste.",
+    "stock": 30,
+    "category": "Snacks",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.435994"
+  },
+  {
+    "productId": "1752431476643",
+    "name": "Organic Baby Rainbow Carrots",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/878/390/7267/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 114.36,
+    "details": "High-quality organic baby rainbow carrots, carefully selected for freshness and taste.",
+    "stock": 83,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436001"
+  },
+  {
+    "productId": "1752431479448",
+    "name": "Organic Mint",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/762/220/178/6373/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 495.22,
+    "details": "High-quality organic mint, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436008"
+  },
+  {
+    "productId": "1752431482934",
+    "name": "Organic Green Cabbage",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/055/8242/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 349.07,
+    "details": "High-quality organic green cabbage, carefully selected for freshness and taste.",
+    "stock": 58,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436014"
+  },
+  {
+    "productId": "1752431489965",
+    "name": "Organic Yellow Peaches",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/256/360/1942/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 46.8,
+    "details": "High-quality organic yellow peaches, carefully selected for freshness and taste.",
+    "stock": 17,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436022"
+  },
+  {
+    "productId": "1752431498102",
+    "name": "Large Grapefruit",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/814533/pexels-photo-814533.jpeg?cs=srgb&dl=food-healthy-eating-814533.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 432.5,
+    "details": "High-quality large grapefruit, carefully selected for freshness and taste.",
+    "stock": 100,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436029"
+  },
+  {
+    "productId": "1752431501694",
+    "name": "Natural Spring Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/611/103/500/0430/front_en.104.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 203.94,
+    "details": "High-quality natural spring water, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436035"
+  },
+  {
+    "productId": "1752431505003",
+    "name": "Salted Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/574/090/040/4465/front_en.30.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 212.66,
+    "details": "High-quality salted butter, carefully selected for freshness and taste.",
+    "stock": 69,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436041"
+  },
+  {
+    "productId": "1752431508819",
+    "name": "Pure Coconut Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/356/007/118/4483/front_en.57.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 403.09,
+    "details": "High-quality pure coconut water, carefully selected for freshness and taste.",
+    "stock": 52,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436153"
+  },
+  {
+    "productId": "1752431513043",
+    "name": "Fridge Pack Cola",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 346.55,
+    "details": "High-quality fridge pack cola, carefully selected for freshness and taste.",
+    "stock": 73,
+    "category": "Bakery",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436208"
+  },
+  {
+    "productId": "1752431522839",
+    "name": "Organic Shredded Carrots",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/055/8242/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 89.38,
+    "details": "High-quality organic shredded carrots, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436221"
+  },
+  {
+    "productId": "1752431525518",
+    "name": "Total 2% Lowfat Greek Strained Yogurt with Peach",
+    "images": [
+      {
+        "url": "https://images.pexels.com/videos/3944327/boomerang-cloth-fast-food-flat-lay-3944327.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 390.03,
+    "details": "High-quality total 2% lowfat greek strained yogurt with peach, carefully selected for freshness and taste.",
+    "stock": 85,
+    "category": "Bakery",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436228"
+  },
+  {
+    "productId": "1752431532353",
+    "name": "White Corn",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/841/007/648/2174/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 85.55,
+    "details": "High-quality white corn, carefully selected for freshness and taste.",
+    "stock": 43,
+    "category": "Snacks",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436245"
+  },
+  {
+    "productId": "1752431535585",
+    "name": "Organic Old Fashioned Rolled Oats",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/003/997/801/3873/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 174.3,
+    "details": "High-quality organic old fashioned rolled oats, carefully selected for freshness and taste.",
+    "stock": 53,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436256"
+  },
+  {
+    "productId": "1752431538504",
+    "name": "Total 2% Lowfat Greek Strained Yogurt With Blueberry",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 326.12,
+    "details": "High-quality total 2% lowfat greek strained yogurt with blueberry, carefully selected for freshness and taste.",
+    "stock": 59,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436264"
+  },
+  {
+    "productId": "1752431548768",
+    "name": "Unsalted Pure Irish Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/109/900/6090/front_en.6.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 437.63,
+    "details": "High-quality unsalted pure irish butter, carefully selected for freshness and taste.",
+    "stock": 67,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436275"
+  },
+  {
+    "productId": "1752431552146",
+    "name": "Organic Leek",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/110/200/0648/front_en.17.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 170.98,
+    "details": "High-quality organic leek, carefully selected for freshness and taste.",
+    "stock": 25,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436282"
+  },
+  {
+    "productId": "1752431555042",
+    "name": "Original No Pulp 100% Florida Orange Juice",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Orange_juice_1.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 366.9,
+    "details": "High-quality original no pulp 100% florida orange juice, carefully selected for freshness and taste.",
+    "stock": 94,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436288"
+  },
+  {
+    "productId": "1752431557485",
+    "name": "Lemonade",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/800/227/057/6829/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 225.69,
+    "details": "High-quality lemonade, carefully selected for freshness and taste.",
+    "stock": 79,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436294"
+  },
+  {
+    "productId": "1752431560302",
+    "name": "Sweet Onion",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/505/097/450/3750/front_en.10.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 33.07,
+    "details": "High-quality sweet onion, carefully selected for freshness and taste.",
+    "stock": 54,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436301"
+  },
+  {
+    "productId": "1752431564166",
+    "name": "Organic Low Sodium Chicken Broth",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/005/260/305/4454/front_en.21.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 50.48,
+    "details": "High-quality organic low sodium chicken broth, carefully selected for freshness and taste.",
+    "stock": 10,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436322"
+  },
+  {
+    "productId": "1752431567424",
+    "name": "Oven Roasted Turkey Breast",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/531/758/6009/front_en.28.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 147.65,
+    "details": "High-quality oven roasted turkey breast, carefully selected for freshness and taste.",
+    "stock": 38,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436333"
+  },
+  {
+    "productId": "1752431570509",
+    "name": "Mango Chunks",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/871/873/482/0758/front_en.30.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 475.97,
+    "details": "High-quality mango chunks, carefully selected for freshness and taste.",
+    "stock": 38,
+    "category": "Beverages",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436432"
+  },
+  {
+    "productId": "1752431573587",
+    "name": "YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1145978/pexels-photo-1145978.jpeg?cs=srgb&dl=healthy-red-fruits-1145978.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 292.85,
+    "details": "High-quality yokids squeezers organic low-fat yogurt, strawberry, carefully selected for freshness and taste.",
+    "stock": 83,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436458"
+  },
+  {
+    "productId": "1752431577555",
+    "name": "Organic Mexican Blend Finely Shredded Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/600/2270/front_en.6.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 406.72,
+    "details": "High-quality organic mexican blend finely shredded cheese, carefully selected for freshness and taste.",
+    "stock": 23,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436468"
+  },
+  {
+    "productId": "1752431584709",
+    "name": "Organic Banana",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/503/886/230/2500/front_en.39.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 367.97,
+    "details": "High-quality organic banana, carefully selected for freshness and taste.",
+    "stock": 51,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436475"
+  },
+  {
+    "productId": "1752431588062",
+    "name": "Organic Tomato Basil Pasta Sauce",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/506/017/807/0286/front_fr.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 66.29,
+    "details": "High-quality organic tomato basil pasta sauce, carefully selected for freshness and taste.",
+    "stock": 32,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436482"
+  },
+  {
+    "productId": "1752431591721",
+    "name": "Globe Eggplant",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/764841/pexels-photo-764841.jpeg?cs=srgb&dl=blue-flowers-crop-eggplants-764841.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 108.68,
+    "details": "High-quality globe eggplant, carefully selected for freshness and taste.",
+    "stock": 52,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436547"
+  },
+  {
+    "productId": "1752431598169",
+    "name": "Organic Butternut Squash",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/089/175/600/0433/front_en.25.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 193.27,
+    "details": "High-quality organic butternut squash, carefully selected for freshness and taste.",
+    "stock": 20,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436554"
+  },
+  {
+    "productId": "1752431602931",
+    "name": "Organic Yams",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/871/510/817/5056/front_nl.26.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 187.92,
+    "details": "High-quality organic yams, carefully selected for freshness and taste.",
+    "stock": 42,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436561"
+  },
+  {
+    "productId": "1752431605739",
+    "name": "Non Fat Raspberry Yogurt",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/45875/raspberries-berries-fruits-red-45875.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 128.23,
+    "details": "High-quality non fat raspberry yogurt, carefully selected for freshness and taste.",
+    "stock": 85,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436570"
+  },
+  {
+    "productId": "1752431614690",
+    "name": "Electrolyte Enhanced Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/078/616/204/0008/front_en.9.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 339.66,
+    "details": "High-quality electrolyte enhanced water, carefully selected for freshness and taste.",
+    "stock": 32,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436578"
+  },
+  {
+    "productId": "1752431618208",
+    "name": "Sustainably Soft Bath Tissue",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 488.54,
+    "details": "High-quality sustainably soft bath tissue, carefully selected for freshness and taste.",
+    "stock": 77,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436585"
+  },
+  {
+    "productId": "1752431627868",
+    "name": "Sparkling Mineral Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/150/880/0129/front_en.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 267.9,
+    "details": "High-quality sparkling mineral water, carefully selected for freshness and taste.",
+    "stock": 53,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436599"
+  },
+  {
+    "productId": "1752431631091",
+    "name": "Guacamole",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/848/000/003/8524/front_en.79.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 449.55,
+    "details": "High-quality guacamole, carefully selected for freshness and taste.",
+    "stock": 54,
+    "category": "Beverages",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436606"
+  },
+  {
+    "productId": "1752431637367",
+    "name": "Organic Baby Kale",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/359/671/047/6299/front_fr.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 472.84,
+    "details": "High-quality organic baby kale, carefully selected for freshness and taste.",
+    "stock": 46,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436613"
+  },
+  {
+    "productId": "1752431640409",
+    "name": "Organic Large Green Asparagus",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/42227/appetite-asparagus-food-green-42227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 306.35,
+    "details": "High-quality organic large green asparagus, carefully selected for freshness and taste.",
+    "stock": 52,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436620"
+  },
+  {
+    "productId": "1752431647364",
+    "name": "Organic Thyme",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/345/630/001/4754/front_fr.8.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 378.25,
+    "details": "High-quality organic thyme, carefully selected for freshness and taste.",
+    "stock": 71,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436628"
+  },
+  {
+    "productId": "1752431651231",
+    "name": "Organic Broccoli Crowns",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/161514/brocoli-vegetables-salad-green-161514.jpeg?cs=srgb&dl=pexels-pixabay-161514.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 295.38,
+    "details": "High-quality organic broccoli crowns, carefully selected for freshness and taste.",
+    "stock": 49,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436642"
+  },
+  {
+    "productId": "1752431657357",
+    "name": "Shallot",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/502/374/647/3285/front_en.8.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 359.03,
+    "details": "High-quality shallot, carefully selected for freshness and taste.",
+    "stock": 28,
+    "category": "Beverages",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436649"
+  },
+  {
+    "productId": "1752431660134",
+    "name": "Chicken & Maple Breakfast Sausage",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/501/366/511/2235/front_en.38.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 358.36,
+    "details": "High-quality chicken & maple breakfast sausage, carefully selected for freshness and taste.",
+    "stock": 48,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436657"
+  },
+  {
+    "productId": "1752431663444",
+    "name": "Organic Beef Hot Dogs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/002/531/777/5328/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 229.41,
+    "details": "High-quality organic beef hot dogs, carefully selected for freshness and taste.",
+    "stock": 21,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436668"
+  },
+  {
+    "productId": "1752431666732",
+    "name": "Total 2% Lowfat Plain Greek Yogurt",
+    "images": [
+      {
+        "url": "https://images.pexels.com/videos/3944327/boomerang-cloth-fast-food-flat-lay-3944327.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 114.68,
+    "details": "High-quality total 2% lowfat plain greek yogurt, carefully selected for freshness and taste.",
+    "stock": 33,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436676"
+  },
+  {
+    "productId": "1752431673749",
+    "name": "Ezekiel 4:9 Bread Organic Sprouted Whole Grain",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/007/347/200/1233/front_en.32.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 237.09,
+    "details": "High-quality ezekiel 4:9 bread organic sprouted whole grain, carefully selected for freshness and taste.",
+    "stock": 20,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436686"
+  },
+  {
+    "productId": "1752431675989",
+    "name": "Sea Salt Pita Chips",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/091/0538/front_en.24.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 22.29,
+    "details": "High-quality sea salt pita chips, carefully selected for freshness and taste.",
+    "stock": 20,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436693"
+  },
+  {
+    "productId": "1752431680296",
+    "name": "European Cucumber",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/859/513/973/9553/front_cs.24.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 479.36,
+    "details": "High-quality european cucumber, carefully selected for freshness and taste.",
+    "stock": 66,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436703"
+  },
+  {
+    "productId": "1752431682757",
+    "name": "Macaroni & Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/324/883/296/7284/front_fr.147.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 458.78,
+    "details": "High-quality macaroni & cheese, carefully selected for freshness and taste.",
+    "stock": 59,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436710"
+  },
+  {
+    "productId": "1752431686458",
+    "name": "Marinara Sauce",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/074/747/900/0413/front_en.34.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 444.1,
+    "details": "High-quality marinara sauce, carefully selected for freshness and taste.",
+    "stock": 17,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436717"
+  },
+  {
+    "productId": "1752431689746",
+    "name": "Organic Egg Whites",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/081/565/200/0014/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 490.51,
+    "details": "High-quality organic egg whites, carefully selected for freshness and taste.",
+    "stock": 60,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436726"
+  },
+  {
+    "productId": "1752431695690",
+    "name": "Vanilla Skyr Nonfat Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Skyr_bought_in_the_grocery_store.jpg/180px-Skyr_bought_in_the_grocery_store.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 243.65,
+    "details": "High-quality vanilla skyr nonfat yogurt, carefully selected for freshness and taste.",
+    "stock": 75,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436734"
+  },
+  {
+    "productId": "1752431698559",
+    "name": "Orange Juice",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/544/900/014/7417/front_en.73.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 271.18,
+    "details": "High-quality orange juice, carefully selected for freshness and taste.",
+    "stock": 34,
+    "category": "Beverages",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436740"
+  },
+  {
+    "productId": "1752431702376",
+    "name": "Organic American Cheese Singles",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/074/236/560/7103/front_en.17.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 401.9,
+    "details": "High-quality organic american cheese singles, carefully selected for freshness and taste.",
+    "stock": 71,
+    "category": "Dairy",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436750"
+  },
+  {
+    "productId": "1752431704964",
+    "name": "Hass Avocado",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/014/0478/front_fr.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 359.67,
+    "details": "High-quality hass avocado, carefully selected for freshness and taste.",
+    "stock": 24,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436758"
+  },
+  {
+    "productId": "1752431707870",
+    "name": "Reduced Fat 2% Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/401/624/103/0573/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 360.59,
+    "details": "High-quality reduced fat 2% milk, carefully selected for freshness and taste.",
+    "stock": 98,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436765"
+  },
+  {
+    "productId": "1752431711201",
+    "name": "Organic Unsweetened Vanilla Almond Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/953/3008/front_en.74.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 474.51,
+    "details": "High-quality organic unsweetened vanilla almond milk, carefully selected for freshness and taste.",
+    "stock": 87,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436775"
+  },
+  {
+    "productId": "1752431714936",
+    "name": "Organic Snipped Green Beans",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/087/489/600/0617/front_fr.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 321.25,
+    "details": "High-quality organic snipped green beans, carefully selected for freshness and taste.",
+    "stock": 22,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436783"
+  },
+  {
+    "productId": "1752431716868",
+    "name": "Total 2% Greek Strained Yogurt with Cherry 5.3 oz",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fresh_greek_yoghurt.jpg/180px-Fresh_greek_yoghurt.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 148.71,
+    "details": "High-quality total 2% greek strained yogurt with cherry 5.3 oz, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Beverages",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436791"
+  },
+  {
+    "productId": "1752431719232",
+    "name": "Trilogy Kombucha Drink",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/072/243/011/0165/front_en.29.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 256.86,
+    "details": "High-quality trilogy kombucha drink, carefully selected for freshness and taste.",
+    "stock": 18,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436798"
+  },
+  {
+    "productId": "1752431721369",
+    "name": "Lemon Hummus",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/500/016/909/0336/front_en.24.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 290.06,
+    "details": "High-quality lemon hummus, carefully selected for freshness and taste.",
+    "stock": 41,
+    "category": "Bakery",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436816"
+  },
+  {
+    "productId": "1752431725952",
+    "name": "Organic Whole Grassmilk Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/600/9989/front_en.27.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 265.77,
+    "details": "High-quality organic whole grassmilk milk, carefully selected for freshness and taste.",
+    "stock": 82,
+    "category": "Dairy",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436823"
+  },
+  {
+    "productId": "1752431727983",
+    "name": "Roasted Turkey Breast",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/502/224/001/6103/front_en.11.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 421.39,
+    "details": "High-quality roasted turkey breast, carefully selected for freshness and taste.",
+    "stock": 85,
+    "category": "Beverages",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436833"
+  },
+  {
+    "productId": "1752431731457",
+    "name": "Natural Chicken & Sage Breakfast Sausage",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/841/030/034/9051/front_es.80.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 139.16,
+    "details": "High-quality natural chicken & sage breakfast sausage, carefully selected for freshness and taste.",
+    "stock": 13,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436840"
+  },
+  {
+    "productId": "1752431735462",
+    "name": "Distilled Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/613/013/100/0014/front_en.40.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 223.75,
+    "details": "High-quality distilled water, carefully selected for freshness and taste.",
+    "stock": 33,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436847"
+  },
+  {
+    "productId": "1752431738471",
+    "name": "Organic Shredded Mozzarella",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/396/645/2709/front_en.14.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 171.17,
+    "details": "High-quality organic shredded mozzarella, carefully selected for freshness and taste.",
+    "stock": 23,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436855"
+  },
+  {
+    "productId": "1752431741453",
+    "name": "XL Emerald White Seedless Grapes",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1098537/pexels-photo-1098537.jpeg?cs=srgb&dl=black-bowl-bowl-of-fruit-1098537.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 89.2,
+    "details": "High-quality xl emerald white seedless grapes, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Beverages",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.436863"
+  },
+  {
+    "productId": "1752431746008",
+    "name": "Original Nooks & Crannies English Muffins",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/004/812/118/4117/front_en.5.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 103.83,
+    "details": "High-quality original nooks & crannies english muffins, carefully selected for freshness and taste.",
+    "stock": 40,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436874"
+  },
+  {
+    "productId": "1752431748087",
+    "name": "Large Yellow Flesh Nectarine",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 483.59,
+    "details": "High-quality large yellow flesh nectarine, carefully selected for freshness and taste.",
+    "stock": 34,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436884"
+  },
+  {
+    "productId": "1752431758634",
+    "name": "Total 0% Nonfat Plain Greek Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 239.76,
+    "details": "High-quality total 0% nonfat plain greek yogurt, carefully selected for freshness and taste.",
+    "stock": 72,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436891"
+  },
+  {
+    "productId": "1752431766799",
+    "name": "Basil Pesto",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/807/680/951/3753/front_en.347.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 114.13,
+    "details": "High-quality basil pesto, carefully selected for freshness and taste.",
+    "stock": 20,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436898"
+  },
+  {
+    "productId": "1752431769796",
+    "name": "Air Chilled Organic Boneless Skinless Chicken Breasts",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/026/562/001/4848/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 450.18,
+    "details": "High-quality air chilled organic boneless skinless chicken breasts, carefully selected for freshness and taste.",
+    "stock": 84,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436906"
+  },
+  {
+    "productId": "1752431772331",
+    "name": "Organic Red Cabbage",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/410/442/003/3986/front_en.31.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 85.02,
+    "details": "High-quality organic red cabbage, carefully selected for freshness and taste.",
+    "stock": 41,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436916"
+  },
+  {
+    "productId": "1752431774731",
+    "name": "Total 2% All Natural Plain Greek Yogurt",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 191.39,
+    "details": "High-quality total 2% all natural plain greek yogurt, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436923"
+  },
+  {
+    "productId": "1752431782148",
+    "name": "Spinach",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/405/648/900/9191/front_en.59.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 34.72,
+    "details": "High-quality spinach, carefully selected for freshness and taste.",
+    "stock": 32,
+    "category": "Beverages",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.436930"
+  },
+  {
+    "productId": "1752431785513",
+    "name": "White Onion",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/222/797/5322/front_en.25.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 414.74,
+    "details": "High-quality white onion, carefully selected for freshness and taste.",
+    "stock": 64,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.436937"
+  },
+  {
+    "productId": "1752431789113",
+    "name": "Organic AppleApple",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/084/886/004/9858/front_en.7.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 161.06,
+    "details": "High-quality organic appleapple, carefully selected for freshness and taste.",
+    "stock": 11,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.436945"
+  },
+  {
+    "productId": "1752431791064",
+    "name": "Organic Creamy Peanut Butter",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/955/5505/front_en.20.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 303.54,
+    "details": "High-quality organic creamy peanut butter, carefully selected for freshness and taste.",
+    "stock": 45,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.436952"
+  },
+  {
+    "productId": "1752431795080",
+    "name": "Roasted Red Pepper Hummus",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/117/5424/front_en.19.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 375.38,
+    "details": "High-quality roasted red pepper hummus, carefully selected for freshness and taste.",
+    "stock": 93,
+    "category": "Dairy",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.436964"
+  },
+  {
+    "productId": "1752431798428",
+    "name": "Original Veggie Straws",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/082/951/532/1109/front_en.23.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 347.41,
+    "details": "High-quality original veggie straws, carefully selected for freshness and taste.",
+    "stock": 72,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437011"
+  },
+  {
+    "productId": "1752431801449",
+    "name": "Organic Green Leaf Lettuce",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/081/843/100/1479/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 402.3,
+    "details": "High-quality organic green leaf lettuce, carefully selected for freshness and taste.",
+    "stock": 24,
+    "category": "Dairy",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437031"
+  },
+  {
+    "productId": "1752431803457",
+    "name": "Orange Sparkling Water",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/001/657/191/0310/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 340.37,
+    "details": "High-quality orange sparkling water, carefully selected for freshness and taste.",
+    "stock": 47,
+    "category": "Snacks",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.437038"
+  },
+  {
+    "productId": "1752431806804",
+    "name": "Asparation/Broccolini/Baby Broccoli",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Albert_Cubby_Broccoli_1976_crop.JPG",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 114.77,
+    "details": "High-quality asparation/broccolini/baby broccoli, carefully selected for freshness and taste.",
+    "stock": 38,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437046"
+  },
+  {
+    "productId": "1752431808964",
+    "name": "Sparkling Water Berry",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/081/921/502/0747/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 324.26,
+    "details": "High-quality sparkling water berry, carefully selected for freshness and taste.",
+    "stock": 14,
+    "category": "Snacks",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437053"
+  },
+  {
+    "productId": "1752431812850",
+    "name": "Organic Tomato Paste",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/993/7295/front_en.27.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 401.84,
+    "details": "High-quality organic tomato paste, carefully selected for freshness and taste.",
+    "stock": 95,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437061"
+  },
+  {
+    "productId": "1752431816483",
+    "name": "2% Reduced Fat Organic Milk",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/322/982/078/7985/front_fr.139.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 430.28,
+    "details": "High-quality 2% reduced fat organic milk, carefully selected for freshness and taste.",
+    "stock": 35,
+    "category": "Fruits & Vegetables",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437068"
+  },
+  {
+    "productId": "1752431819702",
+    "name": "Organic Rainbow Carrots",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/000/064/1494/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 166.59,
+    "details": "High-quality organic rainbow carrots, carefully selected for freshness and taste.",
+    "stock": 12,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437075"
+  },
+  {
+    "productId": "1752431822497",
+    "name": "Organic Brown Rice",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/074/840/428/7947/front_en.114.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 149.0,
+    "details": "High-quality organic brown rice, carefully selected for freshness and taste.",
+    "stock": 40,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437083"
+  },
+  {
+    "productId": "1752431825686",
+    "name": "Organic Baby Spinach Salad",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/073/709/422/2840/front_en.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 300.28,
+    "details": "High-quality organic baby spinach salad, carefully selected for freshness and taste.",
+    "stock": 87,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437090"
+  },
+  {
+    "productId": "1752431829598",
+    "name": "Tilapia Filet",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/540/014/139/8564/front_fr.4.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 122.17,
+    "details": "High-quality tilapia filet, carefully selected for freshness and taste.",
+    "stock": 43,
+    "category": "Fruits & Vegetables",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437097"
+  },
+  {
+    "productId": "1752431833587",
+    "name": "Corn Tortillas",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/841/007/648/1597/front_en.317.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 55.09,
+    "details": "High-quality corn tortillas, carefully selected for freshness and taste.",
+    "stock": 65,
+    "category": "Bakery",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437107"
+  },
+  {
+    "productId": "1752431836500",
+    "name": "Strawberry Preserves",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/304/532/009/4008/front_en.14.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 191.32,
+    "details": "High-quality strawberry preserves, carefully selected for freshness and taste.",
+    "stock": 39,
+    "category": "Fruits & Vegetables",
+    "brand": "FreshFarm",
+    "createdAt": "2025-07-13T18:57:10.437114"
+  },
+  {
+    "productId": "1752431839812",
+    "name": "Gluten Free Whole Grain Bread",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/085/358/400/2249/front_en.8.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 318.68,
+    "details": "High-quality gluten free whole grain bread, carefully selected for freshness and taste.",
+    "stock": 70,
+    "category": "Bakery",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437121"
+  },
+  {
+    "productId": "1752431849564",
+    "name": "Organic Cheese Frozen Pizza",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Frozen_Hawaiian_pizza.jpg/180px-Frozen_Hawaiian_pizza.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 57.91,
+    "details": "High-quality organic cheese frozen pizza, carefully selected for freshness and taste.",
+    "stock": 44,
+    "category": "Fruits & Vegetables",
+    "brand": "HarvestGold",
+    "createdAt": "2025-07-13T18:57:10.437139"
+  },
+  {
+    "productId": "1752431859380",
+    "name": "Sinfully Sweet Campari Tomatoes",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/060/610/562/8882/front_en.3.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 249.79,
+    "details": "High-quality sinfully sweet campari tomatoes, carefully selected for freshness and taste.",
+    "stock": 42,
+    "category": "Dairy",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437146"
+  },
+  {
+    "productId": "1752431861081",
+    "name": "Mini Original Babybel Cheese",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/307/378/082/8628/front_en.12.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 203.32,
+    "details": "High-quality mini original babybel cheese, carefully selected for freshness and taste.",
+    "stock": 100,
+    "category": "Snacks",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437154"
+  },
+  {
+    "productId": "1752431863420",
+    "name": "Organic Iceberg Lettuce",
+    "images": [
+      {
+        "url": "https://farm9.staticflickr.com/8318/7979717691_123141d28d_o_d.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 210.55,
+    "details": "High-quality organic iceberg lettuce, carefully selected for freshness and taste.",
+    "stock": 38,
+    "category": "Fruits & Vegetables",
+    "brand": "PureLife",
+    "createdAt": "2025-07-13T18:57:10.437160"
+  },
+  {
+    "productId": "1752431871725",
+    "name": "Organic Large Grade A Brown Eggs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/942/7383/front_en.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 499.51,
+    "details": "High-quality organic large grade a brown eggs, carefully selected for freshness and taste.",
+    "stock": 37,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437172"
+  },
+  {
+    "productId": "1752431876150",
+    "name": "Flat Parsley, Bunch",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/60560/parsley-seasoning-greens-salad-60560.jpeg?cs=srgb&dl=pexels-pixabay-60560.jpg&fm=jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 496.63,
+    "details": "High-quality flat parsley, bunch, carefully selected for freshness and taste.",
+    "stock": 62,
+    "category": "Snacks",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437181"
+  },
+  {
+    "productId": "1752431880836",
+    "name": "Sourdough Bread",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/502/512/500/0006/front_en.69.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 378.07,
+    "details": "High-quality sourdough bread, carefully selected for freshness and taste.",
+    "stock": 64,
+    "category": "Beverages",
+    "brand": "Nature's Basket",
+    "createdAt": "2025-07-13T18:57:10.437188"
+  },
+  {
+    "productId": "1752431883906",
+    "name": "Organic Grade A Large Brown Eggs",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/009/661/942/7383/front_en.33.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 105.51,
+    "details": "High-quality organic grade a large brown eggs, carefully selected for freshness and taste.",
+    "stock": 82,
+    "category": "Fruits & Vegetables",
+    "brand": "DailyHarvest",
+    "createdAt": "2025-07-13T18:57:10.437196"
+  },
+  {
+    "productId": "1752431887572",
+    "name": "Organic Ketchup",
+    "images": [
+      {
+        "url": "https://images.openfoodfacts.org/images/products/000/005/015/7709/front_en.29.400.jpg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 307.88,
+    "details": "High-quality organic ketchup, carefully selected for freshness and taste.",
+    "stock": 22,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437202"
+  },
+  {
+    "productId": "1752431891544",
+    "name": "Super Spinach! Baby Spinach, Baby Bok Choy, Sweet Baby Kale",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+        "public_id": "placeholder_public_id"
+      }
+    ],
+    "price": 488.54,
+    "details": "High-quality super spinach! baby spinach, baby bok choy, sweet baby kale, carefully selected for freshness and taste.",
+    "stock": 78,
+    "category": "Dairy",
+    "brand": "GreenLeaf",
+    "createdAt": "2025-07-13T18:57:10.437210"
+  }
+]
