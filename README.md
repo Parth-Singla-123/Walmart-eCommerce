@@ -15,6 +15,14 @@ Tech Stack:
 - Database: MongoDB with Mongoose ODM
 - Authentication: NextAuth.js
 
+---
+
+## 🎥 Demo Video
+
+<video src="public/sparkathon1.mp4" controls width="600"></video>
+
+---
+
 ## Project Structure
 ```
 sparkathon/
