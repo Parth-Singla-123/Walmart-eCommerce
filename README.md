@@ -19,7 +19,7 @@ Tech Stack:
 
 ## 🎥 Demo Video
 
-[🎥 Watch Demo Video](public/sparkathon1.mp4)
+![Demo](https://github.com/user-attachments/assets/6e12ec2a-0e5a-44c4-8863-ac73655013e0)
 
 ---
 
