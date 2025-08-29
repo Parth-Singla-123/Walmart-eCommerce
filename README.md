@@ -19,7 +19,7 @@ Tech Stack:
 
 ## 🎥 Demo Video
 
-<video src="public/sparkathon1.mp4" controls width="600"></video>
+[🎥 Watch Demo Video](public/sparkathon1.mp4)
 
 ---
 
